@@ -1,0 +1,9 @@
+module:
+  key: item
+  name: item
+  packageName: io.terminus.item
+  version: 1.0.0-SNAPSHOT
+  description: item
+dependencies:
+  - key: base
+    version: 1.0.0-SNAPSHOT

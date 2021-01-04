@@ -1,0 +1,43 @@
+server:
+  port: ${MODULE_PORT:8080}
+  compression:
+    enabled: true
+
+spring:
+  send:
+    gateway: 0
+  main:
+    allow-bean-definition-overriding: true
+
+autumn:
+  host: ${DS_HOST:127.0.0.1}
+  port: ${DS_PORT:8080}
+  projectId: ${DS_PROJECT_ID:trantor}
+
+trantor:
+  metaStore:
+    url: ${META_STORE_PROTOCOL:http}://${META_STORE_HOST:127.0.0.1}:${META_STORE_PORT:8080}
+  acl:
+    mock: ${ACL_MOCK:false}
+  module:
+    classify: PRODUCT
+  gateway:
+    devUrl: ${DEV_GATEWAY:https://dev-api-gateway.kube-system.svc.cluster.local}
+    testUrl: ${TEST_GATEWAY:https://test-api-gateway.kube-system.svc.cluster.local}
+    stagingUrl: ${STAGING_GATEWAY:https://staging-api-gateway.kube-system.svc.cluster.local}
+    prodUrl: ${PROD_GATEWAY:https://api-gateway.kube-system.svc.cluster.local}
+  recursionLoadModel: ${RECURSION_LOAD_MODEL:false}
+
+draco:
+  web:
+    login-config:
+      token-key: ${LOGIN_SHARE_COOKIE_NAME:t_u_c_local}
+      token-type: JWT
+      pc-expire-time: ${LOGIN_SESSION_EXPIRE_TIME:3600}
+      app-expire-time: ${LOGIN_APP_SESSION_EXPIRE_TIME:2592000}
+      token-storage-type: Cookie
+      cookie-domain: ${COOKIE_DOMAIN:terminus.io}
+      userFindByTokenUrl: ${UC_PROTOCOL:https}://${UC_FRONT_URL:127.0.0.1:8080}/api/user/web/token
+      protocol: http
+  mock:
+    enable: ${USER_MOCK:false}
