@@ -1,0 +1,11 @@
+<View title="后台类目">
+    <CascadeList key="category" model="item_BackendCategory" depthLimit="4" parentField="parent" hasChildrenField="hasChildren">
+        <RecordActions>
+            <Action type="Add" openViewType="Dialog" action="item_BackendCategory_toCreateChild" />
+            <Action type="Select" openViewType="Columns" action="item_BackendCategory_toExtraDetail" />
+            <Action label="编辑" action="item_BackendCategory_toEdit" />
+            <Action label="详情" action="item_BackendCategory_toDetail" />
+            <Action label="删除" action="item_BackendCategory_delete" after="Refresh" />
+        </RecordActions>
+    </CascadeList>
+</View>
