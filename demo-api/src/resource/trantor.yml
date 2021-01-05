@@ -1,9 +1,9 @@
+product:
+  key: terminus_trantor_demo
+  version: 0.13
 module:
-  key: item
-  name: item
-  packageName: io.terminus.item
-  version: 1.0.0-SNAPSHOT
-  description: item
-dependencies:
-  - key: base
-    version: 1.0.0-SNAPSHOT
+  key: demo-server #moudleKey
+  name: Trantor Demo2
+  packageName: io.terminus.trantor.demo
+  version: 0.0.1
+  description: 0.13版本测试

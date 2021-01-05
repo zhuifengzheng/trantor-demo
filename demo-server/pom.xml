@@ -13,6 +13,13 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <version>2.1.6.RELEASE</version>
+            <!--表示两个项目之间这个依赖不传递-->
+            <optional>true</optional>
+        </dependency>
+        <dependency>
             <groupId>io.terminus.trantor</groupId>
             <artifactId>demo-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
@@ -36,16 +43,17 @@
             <plugin>
                 <groupId>io.terminus.trantor</groupId>
                 <artifactId>trantor-metadata-maven-plugin</artifactId>
-                <version>0.11.0-SNAPSHOT</version>
+                <version>0.13.0-SNAPSHOT</version>
                 <configuration>
                     <!-- 这里请替换为你自己的包名 & metastore 地址 -->
-                    <modulePackageName>io.terminus.trantor.demo</modulePackageName>
-                    <metaStoreURL>http://localhost:8082</metaStoreURL>
+                    <moduleKey>demo-server</moduleKey>
+                    <repositoryUrl>http://localhost:8082/terminus_project/terminus_trantor_demo</repositoryUrl>
                 </configuration>
                 <executions>
                     <execution>
                         <phase>compile</phase>
                         <goals>
+<!--                            <goal>install</goal>-->
                             <goal>deploy</goal>
                         </goals>
                     </execution>
