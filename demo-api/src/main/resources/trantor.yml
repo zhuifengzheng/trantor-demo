@@ -6,4 +6,4 @@ module:
   name: Terminus trantor demo
   packageName: io.terminus.trantor.demo
   version: 1.0.0-SNAPSHOT
-  description: Terminus trantor demo
+  description: 演示demo

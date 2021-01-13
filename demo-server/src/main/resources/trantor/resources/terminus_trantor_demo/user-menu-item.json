@@ -4,5 +4,11 @@
     "name": "用户列表",
     "routingType": "Action",
     "routeKey": "terminus_trantor_demo_User_listAll"
+  },
+  {
+  "originalKey": "backendCategoryList",
+  "name": "后台菜单列表",
+  "routingType": "Action",
+  "routeKey": "terminus_trantor_demo_BackendCategory_listAll"
   }
 ]

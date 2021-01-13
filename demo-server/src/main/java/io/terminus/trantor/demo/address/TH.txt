@@ -1,0 +1,956 @@
+省: กรุงเทพมหานคร/ Bangkok 市: คลองเตย/ Khlong Toei
+省: กรุงเทพมหานคร/ Bangkok 市: คลองสาน/ Khlong San
+省: กรุงเทพมหานคร/ Bangkok 市: คลองสามวา/ Klong Sam Wa
+省: กรุงเทพมหานคร/ Bangkok 市: คันนายาว/ Khan Na Yao
+省: กรุงเทพมหานคร/ Bangkok 市: จตุจักร/ Chatuchak
+省: กรุงเทพมหานคร/ Bangkok 市: จอมทอง/ Chom Thong
+省: กรุงเทพมหานคร/ Bangkok 市: ดอนเมือง/ Don Mueang
+省: กรุงเทพมหานคร/ Bangkok 市: ดินแดง/ Din Daeng
+省: กรุงเทพมหานคร/ Bangkok 市: ดุสิต/ Dusit
+省: กรุงเทพมหานคร/ Bangkok 市: ตลิ่งชัน/ Taling Chan
+省: กรุงเทพมหานคร/ Bangkok 市: ทวีวัฒนา/ Thawi Watthana
+省: กรุงเทพมหานคร/ Bangkok 市: ทุ่งครุ/ Thung Khru
+省: กรุงเทพมหานคร/ Bangkok 市: ธนบุรี/ Thon Buri
+省: กรุงเทพมหานคร/ Bangkok 市: บางกอกน้อย/ Bangkok Noi
+省: กรุงเทพมหานคร/ Bangkok 市: บางกอกใหญ่/ Bangkok Yai
+省: กรุงเทพมหานคร/ Bangkok 市: บางกะปิ/ Bang Kapi
+省: กรุงเทพมหานคร/ Bangkok 市: บางขุนเทียน/ Bang Khun Thian
+省: กรุงเทพมหานคร/ Bangkok 市: บางเขน/ Bang Khen
+省: กรุงเทพมหานคร/ Bangkok 市: บางคอแหลม/ Bang Kho Laem
+省: กรุงเทพมหานคร/ Bangkok 市: บางแค/ Bang Khae
+省: กรุงเทพมหานคร/ Bangkok 市: บางซื่อ/ Bang Sue
+省: กรุงเทพมหานคร/ Bangkok 市: บางนา/ Bang Na
+省: กรุงเทพมหานคร/ Bangkok 市: บางบอน/ Bang Bon
+省: กรุงเทพมหานคร/ Bangkok 市: บางพลัด/ Bang Phlat
+省: กรุงเทพมหานคร/ Bangkok 市: บางรัก/ Bang Rak
+省: กรุงเทพมหานคร/ Bangkok 市: บึงกุ่ม/ Bueng Kum
+省: กรุงเทพมหานคร/ Bangkok 市: ปทุมวัน/ Pathum Wan
+省: กรุงเทพมหานคร/ Bangkok 市: ประเวศ/ Prawet
+省: กรุงเทพมหานคร/ Bangkok 市: ป้อมปราบศัตรูพ่าย/ Pom Prap Sattru Phai
+省: กรุงเทพมหานคร/ Bangkok 市: พญาไท/ Phaya Thai
+省: กรุงเทพมหานคร/ Bangkok 市: พระโขนง/ Prakhanogn
+省: กรุงเทพมหานคร/ Bangkok 市: พระนคร/ Phra Nakhon
+省: กรุงเทพมหานคร/ Bangkok 市: ภาษีเจริญ/ Phasi Charoen
+省: กรุงเทพมหานคร/ Bangkok 市: มีนบุรี/ Min Buri
+省: กรุงเทพมหานคร/ Bangkok 市: ยานนาวา/ Yan Nawa
+省: กรุงเทพมหานคร/ Bangkok 市: ราชเทวี/ Ratchathewi
+省: กรุงเทพมหานคร/ Bangkok 市: ราษฏร์บูรณะ/ Rat Burana
+省: กรุงเทพมหานคร/ Bangkok 市: ลาดกระบัง/ Lat Krabang
+省: กรุงเทพมหานคร/ Bangkok 市: ลาดพร้าว/ Lad Phraw
+省: กรุงเทพมหานคร/ Bangkok 市: วังทองหลาง/ Wang Thonglang
+省: กรุงเทพมหานคร/ Bangkok 市: วัฒนา/ Vadhana
+省: กรุงเทพมหานคร/ Bangkok 市: สวนหลวง/ Suan Luang
+省: กรุงเทพมหานคร/ Bangkok 市: สะพานสูง/ Sapan Sung
+省: กรุงเทพมหานคร/ Bangkok 市: สัมพันธวงศ์/ Samphanthawong
+省: กรุงเทพมหานคร/ Bangkok 市: สาทร/ Sathon
+省: กรุงเทพมหานคร/ Bangkok 市: สายไหม/ Sai Mai
+省: กรุงเทพมหานคร/ Bangkok 市: หนองแขม/ Nong Khaem
+省: กรุงเทพมหานคร/ Bangkok 市: หนองจอก/ Nong Chok
+省: กรุงเทพมหานคร/ Bangkok 市: หลักสี่/ Lak Si
+省: กรุงเทพมหานคร/ Bangkok 市: ห้วยขวาง/ Huai Khwang
+省: กระบี่/ Krabi 市: เกาะลันตา/ Ko Lanta
+省: กระบี่/ Krabi 市: เขาพนม/ Khao Phanom
+省: กระบี่/ Krabi 市: คลองท่อม/ Khlong Thom
+省: กระบี่/ Krabi 市: ปลายพระยา/ Plai Phraya
+省: กระบี่/ Krabi 市: เมืองกระบี่/ Mueang Krabi
+省: กระบี่/ Krabi 市: ลำทับ/ Lam Thap
+省: กระบี่/ Krabi 市: เหนือคลอง/ Nuea Khlong
+省: กระบี่/ Krabi 市: อ่าวลึก/ Ao Luek
+省: กาญจนบุรี/ Kanchanaburi 市: ด่านมะขามเตี้ย/ Dan Makham Tia District
+省: กาญจนบุรี/ Kanchanaburi 市: ทองผาภูมิ/ Thong Pha Phum
+省: กาญจนบุรี/ Kanchanaburi 市: ท่าม่วง/ Tha Muang
+省: กาญจนบุรี/ Kanchanaburi 市: ท่ามะกา/ Tha Maka
+省: กาญจนบุรี/ Kanchanaburi 市: ไทรโยค/ Sai Yok
+省: กาญจนบุรี/ Kanchanaburi 市: บ่อพลอย/ Bo Phloi
+省: กาญจนบุรี/ Kanchanaburi 市: พนมทวน/ Phanom Thuan
+省: กาญจนบุรี/ Kanchanaburi 市: เมืองกาญจนบุรี/ Mueang Kanchanaburi
+省: กาญจนบุรี/ Kanchanaburi 市: เลาขวัญ/ Lao Khwan
+省: กาญจนบุรี/ Kanchanaburi 市: ศรีสวัสดิ์/ Si Sawat
+省: กาญจนบุรี/ Kanchanaburi 市: สังขละบุรี/ Sangkhla Buri
+省: กาญจนบุรี/ Kanchanaburi 市: หนองปรือ/ Nong Prue
+省: กาญจนบุรี/ Kanchanaburi 市: ห้วยกระเจา/ Huai Krachao
+省: กาฬสินธุ์/ Kalasin 市: กมลาไสย/ Kamalasai
+省: กาฬสินธุ์/ Kalasin 市: กุฉินารายณ์/ Kuchinarai
+省: กาฬสินธุ์/ Kalasin 市: เขาวง/ Khao Wong
+省: กาฬสินธุ์/ Kalasin 市: คำม่วง/ Kham Muang
+省: กาฬสินธุ์/ Kalasin 市: ฆ้องชัย/ Khong Chai
+省: กาฬสินธุ์/ Kalasin 市: ดอนจาน/ Don Chan
+省: กาฬสินธุ์/ Kalasin 市: ท่าคันโท/ Tha Khantho
+省: กาฬสินธุ์/ Kalasin 市: นาคู/ Na Khu
+省: กาฬสินธุ์/ Kalasin 市: นามน/ Na Mon
+省: กาฬสินธุ์/ Kalasin 市: เมืองกาฬสินธุ์/ Mueang Kalasin
+省: กาฬสินธุ์/ Kalasin 市: ยางตลาด/ Yang Talat
+省: กาฬสินธุ์/ Kalasin 市: ร่องคำ/ Rong Kham
+省: กาฬสินธุ์/ Kalasin 市: สมเด็จ/ Somdet
+省: กาฬสินธุ์/ Kalasin 市: สหัสขันธ์/ Sahatsakhan
+省: กาฬสินธุ์/ Kalasin 市: สามชัย/ Sam Chai
+省: กาฬสินธุ์/ Kalasin 市: หนองกุงศรี/ Nong Kung Si
+省: กาฬสินธุ์/ Kalasin 市: ห้วยผึ้ง/ Huai Phueng
+省: กาฬสินธุ์/ Kalasin 市: ห้วยเม็ก/ Huai Mek
+省: กำแพงเพชร/ Kamphaeng Phet 市: โกสัมพีนคร/ Kosamphi Nakhon
+省: กำแพงเพชร/ Kamphaeng Phet 市: ขาณุวรลักษบุรี/ Khanu Woralaksaburi
+省: กำแพงเพชร/ Kamphaeng Phet 市: คลองขลุง/ Khlong Khlung
+省: กำแพงเพชร/ Kamphaeng Phet 市: คลองลาน/ Khlong Lan
+省: กำแพงเพชร/ Kamphaeng Phet 市: ทรายทองวัฒนา/ Sai Thong Watthana
+省: กำแพงเพชร/ Kamphaeng Phet 市: ไทรงาม/ Sai Ngam
+省: กำแพงเพชร/ Kamphaeng Phet 市: บึงสามัคคี/ Bueng Samakkhi
+省: กำแพงเพชร/ Kamphaeng Phet 市: ปางศิลาทอง/ Pang Sila Thong
+省: กำแพงเพชร/ Kamphaeng Phet 市: พรานกระต่าย/ Phran Kratai
+省: กำแพงเพชร/ Kamphaeng Phet 市: เมืองกำแพงเพชร/ Mueang Kamphaeng Phet
+省: กำแพงเพชร/ Kamphaeng Phet 市: ลานกระบือ/ Lan Krabue
+省: ขอนแก่น/ Khon Kaen 市: กระนวน/ Kranuan
+省: ขอนแก่น/ Khon Kaen 市: เขาสวนกวาง/ Khao Suan Kwang
+省: ขอนแก่น/ Khon Kaen 市: โคกโพธิ์ไชย/ Khok Pho Chai
+省: ขอนแก่น/ Khon Kaen 市: ชนบท/ Chonnabot
+省: ขอนแก่น/ Khon Kaen 市: ชำสูง/ Sam Sung
+省: ขอนแก่น/ Khon Kaen 市: ชุมแพ/ Chum Phae
+省: ขอนแก่น/ Khon Kaen 市: ซำสูง/ Sam Sung
+省: ขอนแก่น/ Khon Kaen 市: น้ำพอง/ Nam Phong
+省: ขอนแก่น/ Khon Kaen 市: โนนศิลา/ Non Sila
+省: ขอนแก่น/ Khon Kaen 市: บ้านไผ่/ Ban Phai
+省: ขอนแก่น/ Khon Kaen 市: บ้านฝาง/ Ban Fang
+省: ขอนแก่น/ Khon Kaen 市: บ้านแฮด/ Ban Haet
+省: ขอนแก่น/ Khon Kaen 市: เปือยน้อย/ Pueai Noi
+省: ขอนแก่น/ Khon Kaen 市: พระยืน/ Phra Yuen
+省: ขอนแก่น/ Khon Kaen 市: พล/ Phon
+省: ขอนแก่น/ Khon Kaen 市: ภูผาม่าน/ Phu Pha Man
+省: ขอนแก่น/ Khon Kaen 市: ภูเวียง/ Phu Wiang
+省: ขอนแก่น/ Khon Kaen 市: มัญจาคีรี/ Mancha Khiri
+省: ขอนแก่น/ Khon Kaen 市: เมืองขอนแก่น/ Mueang Khon Kaen
+省: ขอนแก่น/ Khon Kaen 市: เวียงเก่า/Wiang Gao
+省: ขอนแก่น/ Khon Kaen 市: แวงน้อย/ Waeng Noi
+省: ขอนแก่น/ Khon Kaen 市: แวงใหญ่/ Waeng Yai
+省: ขอนแก่น/ Khon Kaen 市: สีชมพู/ Si Chomphu
+省: ขอนแก่น/ Khon Kaen 市: หนองนาคำ/ Nong Na Kham
+省: ขอนแก่น/ Khon Kaen 市: หนองเรือ/ Nong Ruea
+省: ขอนแก่น/ Khon Kaen 市: หนองสองห้อง/ Nong Song Hong
+省: ขอนแก่น/ Khon Kaen 市: อุบลรัตน์/ Ubolratana
+省: จันทบุรี/ Chanthaburi 市: แก่งหางแมว/ Kaeng Hang Maeo
+省: จันทบุรี/ Chanthaburi 市: ขลุง/ Khlung
+省: จันทบุรี/ Chanthaburi 市: เขาคิชฌกูฏ/ Khao Khitchakut
+省: จันทบุรี/ Chanthaburi 市: ท่าใหม่/ Tha Mai
+省: จันทบุรี/ Chanthaburi 市: นายายอาม/ Na Yai Am
+省: จันทบุรี/ Chanthaburi 市: โป่งน้ำร้อน/ Pong Nam Ron
+省: จันทบุรี/ Chanthaburi 市: มะขาม/ Makham
+省: จันทบุรี/ Chanthaburi 市: เมืองจันทบุรี/ Mueang Chanthaburi
+省: จันทบุรี/ Chanthaburi 市: สอยดาว/ Soi Dao
+省: จันทบุรี/ Chanthaburi 市: แหลมสิงห์/ Laem Sing
+省: ฉะเชิงเทรา/ Chachoengsao 市: คลองเขื่อน/ Khlong Khuean
+省: ฉะเชิงเทรา/ Chachoengsao 市: ท่าตะเกียบ/ Tha Takiap
+省: ฉะเชิงเทรา/ Chachoengsao 市: บางคล้า/ Bang Khla
+省: ฉะเชิงเทรา/ Chachoengsao 市: บางน้ำเปรี้ยว/ Bang Nam Priao
+省: ฉะเชิงเทรา/ Chachoengsao 市: บางปะกง/ Bang Pakong
+省: ฉะเชิงเทรา/ Chachoengsao 市: บ้านโพธิ์/ Ban Pho
+省: ฉะเชิงเทรา/ Chachoengsao 市: แปลงยาว/ Plaeng Yao
+省: ฉะเชิงเทรา/ Chachoengsao 市: พนมสารคาม/ Phanom Sarakham
+省: ฉะเชิงเทรา/ Chachoengsao 市: เมืองฉะเชิงเทรา/ Mueang Chachoengsao
+省: ฉะเชิงเทรา/ Chachoengsao 市: ราชสาส์น/ Ratchasan
+省: ฉะเชิงเทรา/ Chachoengsao 市: สนามชัยเขต/ Sanam Chai Khet
+省: ชลบุรี/ Chonburi 市: เกาะจันทร์/ Ko Chan
+省: ชลบุรี/ Chonburi 市: เกาะสีชัง/ Ko Si  Chang
+省: ชลบุรี/ Chonburi 市: บ่อทอง/ Bo Thong
+省: ชลบุรี/ Chonburi 市: บางละมุง/ Bang Lamung
+省: ชลบุรี/ Chonburi 市: บ้านบึง/ Ban Bueng
+省: ชลบุรี/ Chonburi 市: พนัสนิคม/ Phanat Nikhom
+省: ชลบุรี/ Chonburi 市: พานทอง/ Phan Thong
+省: ชลบุรี/ Chonburi 市: เมืองชลบุรี/ Mueang Chon Buri
+省: ชลบุรี/ Chonburi 市: ศรีราชา/ Si Racha
+省: ชลบุรี/ Chonburi 市: สัตหีบ/ Sattahip
+省: ชลบุรี/ Chonburi 市: หนองใหญ่/ Nong Yai
+省: ชัยนาท/ Chainat 市: เนินขาม/ Noen Kham
+省: ชัยนาท/ Chainat 市: มโนรมย์/ Manorom
+省: ชัยนาท/ Chainat 市: เมืองชัยนาท/ Mueang Chai Nat
+省: ชัยนาท/ Chainat 市: วัดสิงห์/ Wat Sing
+省: ชัยนาท/ Chainat 市: สรรคบุรี/ Sankhaburi
+省: ชัยนาท/ Chainat 市: สรรพยา/ Sapphaya
+省: ชัยนาท/ Chainat 市: หนองมะโมง/ Nong Mamong
+省: ชัยนาท/ Chainat 市: หันคา/ Hankha
+省: ชัยภูมิ/ Chaiyaphum 市: เกษตรสมบูรณ์/ Kaset Sombun
+省: ชัยภูมิ/ Chaiyaphum 市: แก้งคร้อ/ Kaeng Khro
+省: ชัยภูมิ/ Chaiyaphum 市: คอนสวรรค์/ Khon Sawan
+省: ชัยภูมิ/ Chaiyaphum 市: คอนสาร/ Khon San
+省: ชัยภูมิ/ Chaiyaphum 市: จัตุรัส/ Chatturat
+省: ชัยภูมิ/ Chaiyaphum 市: ซับใหญ่/ Sap Yai
+省: ชัยภูมิ/ Chaiyaphum 市: เทพสถิต/ Thep Sathit
+省: ชัยภูมิ/ Chaiyaphum 市: เนินสง่า/ Noen Sa-Nga
+省: ชัยภูมิ/ Chaiyaphum 市: บ้านเขว้า/ Ban Khwao
+省: ชัยภูมิ/ Chaiyaphum 市: บ้านแท่น/ Ban Thaen
+省: ชัยภูมิ/ Chaiyaphum 市: บำเหน็จณรงค์/ Bamnet Narong
+省: ชัยภูมิ/ Chaiyaphum 市: ภักดีชุมพล/ Phakdi Chumphon
+省: ชัยภูมิ/ Chaiyaphum 市: ภูเขียว/ Phu Khiao
+省: ชัยภูมิ/ Chaiyaphum 市: เมืองชัยภูมิ/ Mueang Chaiyaphum
+省: ชัยภูมิ/ Chaiyaphum 市: หนองบัวแดง/ Nong Bua Daeng
+省: ชัยภูมิ/ Chaiyaphum 市: หนองบัวระเหว/ Nong Bua Rawe
+省: ชุมพร/ Chumphon 市: ท่าแซะ/ Tha Sae
+省: ชุมพร/ Chumphon 市: ทุ่งตะโก/ Thung Tako
+省: ชุมพร/ Chumphon 市: ปะทิว/ Pathio
+省: ชุมพร/ Chumphon 市: พะโต๊ะ/ Phato
+省: ชุมพร/ Chumphon 市: เมือง/ Mueang
+省: ชุมพร/ Chumphon 市: เมืองชุมพร/ Mueang Chumphon
+省: ชุมพร/ Chumphon 市: ละแม/ Lamae
+省: ชุมพร/ Chumphon 市: สวี/ Sawi
+省: ชุมพร/ Chumphon 市: หลังสวน/ Lang Suan
+省: เชียงราย/ Chiang Rai 市: ขุนตาล/ Khun Tan
+省: เชียงราย/ Chiang Rai 市: เชียงของ/ Chiang Khong
+省: เชียงราย/ Chiang Rai 市: เชียงแสน/ Chiang Saen
+省: เชียงราย/ Chiang Rai 市: ดอยหลวง/ Doi Luang
+省: เชียงราย/ Chiang Rai 市: เทิง/ Thoeng
+省: เชียงราย/ Chiang Rai 市: ป่าแดด/ Pa Daet
+省: เชียงราย/ Chiang Rai 市: พญาเม็งราย/ Phaya Mengra District i
+省: เชียงราย/ Chiang Rai 市: พาน/ Phan
+省: เชียงราย/ Chiang Rai 市: เมืองเชียงราย/ Mueang Chiang Rai
+省: เชียงราย/ Chiang Rai 市: แม่จัน/ Mae Chan
+省: เชียงราย/ Chiang Rai 市: แม่ฟ้าหลวง/ Mae Fa Luang
+省: เชียงราย/ Chiang Rai 市: แม่ลาว/ Mae Lao
+省: เชียงราย/ Chiang Rai 市: แม่สรวย/ Mae Suai
+省: เชียงราย/ Chiang Rai 市: แม่สาย/ Mae Sai
+省: เชียงราย/ Chiang Rai 市: เวียงแก่น/ Wiang Kaen
+省: เชียงราย/ Chiang Rai 市: เวียงชัย/ Wiang Chai
+省: เชียงราย/ Chiang Rai 市: เวียงเชียงรุ้ง/ Wiang Chiang Rung
+省: เชียงราย/ Chiang Rai 市: เวียงป่าเป้า/ Wiang Pa Pao
+省: เชียงใหม่/ Chiang Mai 市: กัลยาณิวัฒนา/ Ganlayaniwattana
+省: เชียงใหม่/ Chiang Mai 市: จอมทอง/ Chom Thong
+省: เชียงใหม่/ Chiang Mai 市: เชียงดาว/ Chiang Dao
+省: เชียงใหม่/ Chiang Mai 市: ไชยปราการ/ Chai Prakan
+省: เชียงใหม่/ Chiang Mai 市: ดอยเต่า/ Doi Tao
+省: เชียงใหม่/ Chiang Mai 市: ดอยสะเก็ด/ Doi Saket
+省: เชียงใหม่/ Chiang Mai 市: ดอยหล่อ/ Doi Lo
+省: เชียงใหม่/ Chiang Mai 市: ฝาง/ Fang
+省: เชียงใหม่/ Chiang Mai 市: พร้าว/ Phrao
+省: เชียงใหม่/ Chiang Mai 市: เมืองเชียงใหม่/ Mueang Chiang Mai
+省: เชียงใหม่/ Chiang Mai 市: แม่แจ่ม/ Mae Chaem
+省: เชียงใหม่/ Chiang Mai 市: แม่แตง/ Mae Taeng
+省: เชียงใหม่/ Chiang Mai 市: แม่ริม/ Mae Rim
+省: เชียงใหม่/ Chiang Mai 市: แม่วาง/ Mae Wang
+省: เชียงใหม่/ Chiang Mai 市: แม่ออน/ Mae On
+省: เชียงใหม่/ Chiang Mai 市: แม่อาย/ Mae Ai
+省: เชียงใหม่/ Chiang Mai 市: เวียงแหง/ Wiang Haeng
+省: เชียงใหม่/ Chiang Mai 市: สะเมิง/ Samoeng
+省: เชียงใหม่/ Chiang Mai 市: สันกำแพง/ San Kamphaeng
+省: เชียงใหม่/ Chiang Mai 市: สันทราย/ San Sai
+省: เชียงใหม่/ Chiang Mai 市: สันป่าตอง/ San Pa Tong
+省: เชียงใหม่/ Chiang Mai 市: สารภี/ Saraphi
+省: เชียงใหม่/ Chiang Mai 市: หางดง/ Hang Dong
+省: เชียงใหม่/ Chiang Mai 市: อมก๋อย/ Omkoi
+省: เชียงใหม่/ Chiang Mai 市: ฮอด/ Hot
+省: ตรัง/ Trang 市: กันตัง/ Kantang
+省: ตรัง/ Trang 市: นาโยง/ Na Yong
+省: ตรัง/ Trang 市: ปะเหลียน/ Palian
+省: ตรัง/ Trang 市: เมืองตรัง/ Mueang Trang
+省: ตรัง/ Trang 市: ย่านตาขาว/ Yan Ta Khao
+省: ตรัง/ Trang 市: รัษฎา/ Ratsada
+省: ตรัง/ Trang 市: วังวิเศษ/ Wang Wiset
+省: ตรัง/ Trang 市: สิเกา/ Sikao
+省: ตรัง/ Trang 市: ห้วยยอด/ Huai Yot
+省: ตรัง/ Trang 市: หาดสำราญ/ Hat Samran
+省: ตราด/ Trat 市: เกาะกูด/ Ko Kut
+省: ตราด/ Trat 市: เกาะช้าง/ Ko Chang
+省: ตราด/ Trat 市: เขาสมิง/ Khao Saming
+省: ตราด/ Trat 市: คลองใหญ่/ Khlong Yai
+省: ตราด/ Trat 市: บ่อไร่/ Bo Rai
+省: ตราด/ Trat 市: เมืองตราด/ Mueang Trat
+省: ตราด/ Trat 市: แหลมงอบ/ Laem Ngop
+省: ตาก/ Tak 市: ท่าสองยาง/ Tha Song Yang
+省: ตาก/ Tak 市: บ้านตาก/ Ban Tak
+省: ตาก/ Tak 市: พบพระ/ Phop Phra
+省: ตาก/ Tak 市: เมืองตาก/ Mueang Tak
+省: ตาก/ Tak 市: แม่ระมาด/ Mae Ramat
+省: ตาก/ Tak 市: แม่สอด/ Mae Sot
+省: ตาก/ Tak 市: วังเจ้า/ Wang Chao
+省: ตาก/ Tak 市: สามเงา/ Sam Ngao
+省: ตาก/ Tak 市: อุ้มผาง/ Umphang
+省: นครนายก/ Nakhon Nayok 市: บ้านนา/ Ban Na
+省: นครนายก/ Nakhon Nayok 市: ปากพลี/ Pak Phli
+省: นครนายก/ Nakhon Nayok 市: เมืองนครนายก/ Mueang Nakhon Nayok
+省: นครนายก/ Nakhon Nayok 市: องครักษ์/ Ongkharak
+省: นครปฐม/ Nakhon Pathom 市: กำแพงแสน/ Kamphaeng Saen
+省: นครปฐม/ Nakhon Pathom 市: ดอนตูม/ Don Tum
+省: นครปฐม/ Nakhon Pathom 市: นครชัยศรี/ Nakhon Chai Si
+省: นครปฐม/ Nakhon Pathom 市: บางเลน/ Bang Len
+省: นครปฐม/ Nakhon Pathom 市: พุทธมณฑล/ Phutthamonthon
+省: นครปฐม/ Nakhon Pathom 市: เมืองนครปฐม/ Mueang Nakhon Pathom
+省: นครปฐม/ Nakhon Pathom 市: สามพราน/ Sam Phran
+省: นครพนม/ Nakhon Phanom 市: ท่าอุเทน/ Tha Uthen
+省: นครพนม/ Nakhon Phanom 市: ธาตุพนม/ That Phanom
+省: นครพนม/ Nakhon Phanom 市: นาแก/ Na Kae
+省: นครพนม/ Nakhon Phanom 市: นาทม/ Na Thom
+省: นครพนม/ Nakhon Phanom 市: นาหว้า/ Na Wa
+省: นครพนม/ Nakhon Phanom 市: บ้านแพง/ Ban Phaeng
+省: นครพนม/ Nakhon Phanom 市: ปลาปาก/ Pla Pak
+省: นครพนม/ Nakhon Phanom 市: โพนสวรรค์/ Phon Sawan
+省: นครพนม/ Nakhon Phanom 市: เมืองนครพนม/ Mueng Nakornpanom
+省: นครพนม/ Nakhon Phanom 市: เรณูนคร/ Renu Nakhon
+省: นครพนม/ Nakhon Phanom 市: วังยาง/ Wang Yang
+省: นครพนม/ Nakhon Phanom 市: ศรีสงคราม/ Si Songkhram
+省: นครราชสีมา/ Nakhon Ratchasima 市: แก้งสนามนาง/ Kaeng Sanam Nang
+省: นครราชสีมา/ Nakhon Ratchasima 市: ขามทะเลสอ/ Kham Thale So
+省: นครราชสีมา/ Nakhon Ratchasima 市: ขามสะแกแสง/ Kham Sakaesaeng
+省: นครราชสีมา/ Nakhon Ratchasima 市: คง/ Khong
+省: นครราชสีมา/ Nakhon Ratchasima 市: ครบุรี/ Khon Buri
+省: นครราชสีมา/ Nakhon Ratchasima 市: จักราช/ Chakkarat
+省: นครราชสีมา/ Nakhon Ratchasima 市: เฉลิมพระเกียรติ/ Chaloem Phra Kiat
+省: นครราชสีมา/ Nakhon Ratchasima 市: ชุมพวง/ Chum Phuang
+省: นครราชสีมา/ Nakhon Ratchasima 市: โชคชัย/ Chok Chai
+省: นครราชสีมา/ Nakhon Ratchasima 市: ด่านขุนทด/ Dan Khun Thot
+省: นครราชสีมา/ Nakhon Ratchasima 市: เทพารักษ์/ Thepharak
+省: นครราชสีมา/ Nakhon Ratchasima 市: โนนแดง/ Non Daeng
+省: นครราชสีมา/ Nakhon Ratchasima 市: โนนไทย/ Non Thai
+省: นครราชสีมา/ Nakhon Ratchasima 市: โนนสูง/ Non Sung
+省: นครราชสีมา/ Nakhon Ratchasima 市: บัวลาย/ Bua Lai
+省: นครราชสีมา/ Nakhon Ratchasima 市: บัวใหญ่/ Bua Yai
+省: นครราชสีมา/ Nakhon Ratchasima 市: บ้านเหลื่อม/ Ban Lueam
+省: นครราชสีมา/ Nakhon Ratchasima 市: ประทาย/ Prathai
+省: นครราชสีมา/ Nakhon Ratchasima 市: ปักธงชัย/ Pak Thong Chai
+省: นครราชสีมา/ Nakhon Ratchasima 市: ปากช่อง/ Pak Chong
+省: นครราชสีมา/ Nakhon Ratchasima 市: พระทองคำ/ Phra Thong Kham
+省: นครราชสีมา/ Nakhon Ratchasima 市: พิมาย/ Phimai
+省: นครราชสีมา/ Nakhon Ratchasima 市: เมืองนครราชสีมา/ Mueng Nakorn Ratchasima
+省: นครราชสีมา/ Nakhon Ratchasima 市: เมืองยาง/ Mueang Yang
+省: นครราชสีมา/ Nakhon Ratchasima 市: ลำทะเมนชัย/ Lam Thamenchai
+省: นครราชสีมา/ Nakhon Ratchasima 市: วังน้ำเขียว/ Wang Nam Khiao
+省: นครราชสีมา/ Nakhon Ratchasima 市: สีคิ้ว/ Sikhio
+省: นครราชสีมา/ Nakhon Ratchasima 市: สีดา/ Sida
+省: นครราชสีมา/ Nakhon Ratchasima 市: สูงเนิน/ Sung Noen
+省: นครราชสีมา/ Nakhon Ratchasima 市: เสิงสาง/ Soeng Sang
+省: นครราชสีมา/ Nakhon Ratchasima 市: หนองบุญมาก/ Nhong Boon Mak
+省: นครราชสีมา/ Nakhon Ratchasima 市: หนองบุญมาก/ Nong Bun Mak
+省: นครราชสีมา/ Nakhon Ratchasima 市: ห้วยแถลง/ Huai Thalaeng
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: ขนอม/ Khanom
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: จุฬาภรณ์/ Chulabhorn
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: ฉวาง/ Chawang
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: เฉลิมพระเกียรติ/ Chaloem Phra Kiat
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: ชะอวด/ Cha-uat
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: ช้างกลาง/ Chang Klang
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: เชียรใหญ่/ Chian Yai
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: ถ้ำพรรณรา/ Tham Phannara
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: ท่าศาลา/ Tha Sala
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: ทุ่งสง/ Thung Song
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: ทุ่งใหญ่/ Thung Yai
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: นบพิตำ/ Nopphitam
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: นาบอน/ Na Bon
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: บางขัน/ Bang Khan
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: ปากพนัง/ Pak Phanang
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: พรหมคีรี/ Phrom  Khiri
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: พระพรหม/ Phra Phrom
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: พิปูน/ Phipun
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: เมืองนครศรีธรรมราช/ Mueang Nakhon Si Thammarat
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: ร่อนพิบูลย์/ Ron Phibun
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: ลานสกา/ Lan Saka
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: สิชล/ Sichon
+省: นครศรีธรรมราช/ Nakhon Si Thammarat 市: หัวไทร/ Hua Sai
+省: นครสวรรค์/ Nakhon Sawan 市: เก้าเลี้ยว/ Kao Liao
+省: นครสวรรค์/ Nakhon Sawan 市: โกรกพระ/ Krok Phra
+省: นครสวรรค์/ Nakhon Sawan 市: ชุมตาบง/ Chum Ta Bong
+省: นครสวรรค์/ Nakhon Sawan 市: ชุมแสง/ Chum Saeng
+省: นครสวรรค์/ Nakhon Sawan 市: ตากฟ้า/ Tak Fa
+省: นครสวรรค์/ Nakhon Sawan 市: ตาคลี/ Takhli
+省: นครสวรรค์/ Nakhon Sawan 市: ท่าตะโก/ Tha Tako
+省: นครสวรรค์/ Nakhon Sawan 市: บรรพตพิสัย/ Banphot Phisai
+省: นครสวรรค์/ Nakhon Sawan 市: พยุหะคีรี/ Phayuha Khiri
+省: นครสวรรค์/ Nakhon Sawan 市: ไพศาลี/ Phaisali
+省: นครสวรรค์/ Nakhon Sawan 市: เมืองนครสวรรค์/ Mueang Nakhon Sawan
+省: นครสวรรค์/ Nakhon Sawan 市: แม่เปิน/ Mae Poen
+省: นครสวรรค์/ Nakhon Sawan 市: แม่วงก์/ Mae Wong
+省: นครสวรรค์/ Nakhon Sawan 市: ลาดยาว/ Lat Yao
+省: นครสวรรค์/ Nakhon Sawan 市: หนองบัว/ Nong Bua
+省: นนทบุรี/ Nonthaburi 市: ไทรน้อย/ Sai Noi
+省: นนทบุรี/ Nonthaburi 市: บางกรวย/ Bang Kruai
+省: นนทบุรี/ Nonthaburi 市: บางบัวทอง/ Bang Bua Thong
+省: นนทบุรี/ Nonthaburi 市: บางใหญ่/ Bang Yai
+省: นนทบุรี/ Nonthaburi 市: ปากเกร็ด/ Pak Kret
+省: นนทบุรี/ Nonthaburi 市: เมืองนนทบุรี/ Mueang Nonthaburi
+省: นราธิวาส/ Narathiwat 市: จะแนะ/ Chanae
+省: นราธิวาส/ Narathiwat 市: เจาะไอร้อง/ Cho-airong
+省: นราธิวาส/ Narathiwat 市: ตากใบ/ Tak Bai
+省: นราธิวาส/ Narathiwat 市: บาเจาะ/ Bacho
+省: นราธิวาส/ Narathiwat 市: เมืองนราธิวาส/ Mueang Narathiwat
+省: นราธิวาส/ Narathiwat 市: ยี่งอ/ Yi-ngo
+省: นราธิวาส/ Narathiwat 市: ระแงะ/ Ra-Ngae
+省: นราธิวาส/ Narathiwat 市: รือเสาะ/ Rueso
+省: นราธิวาส/ Narathiwat 市: แว้ง/ Waeng
+省: นราธิวาส/ Narathiwat 市: ศรีสาคร/ Si Sakhon
+省: นราธิวาส/ Narathiwat 市: สุคิริน/ Sukhirin
+省: นราธิวาส/ Narathiwat 市: สุไหงโก-ลก/ Su-ngai Kolok
+省: นราธิวาส/ Narathiwat 市: สุไหงปาดี/ Su-ngai Padi
+省: น่าน/ Nan 市: เฉลิมพระเกียรติ/ Chaloem Phra Kiat
+省: น่าน/ Nan 市: เชียงกลาง/ Chiang Klang
+省: น่าน/ Nan 市: ท่าวังผา/ Tha Wang Pha
+省: น่าน/ Nan 市: ทุ่งช้าง/ Thung Chang
+省: น่าน/ Nan 市: นาน้อย/ Na Noi
+省: น่าน/ Nan 市: นาหมื่น/ Na Muen
+省: น่าน/ Nan 市: บ่อเกลือ/ Bo Kluea
+省: น่าน/ Nan 市: บ้านหลวง/ Ban Luang
+省: น่าน/ Nan 市: ปัว/ Pua
+省: น่าน/ Nan 市: ภูเพียง/ Phu Phiang
+省: น่าน/ Nan 市: เมืองน่าน/ Mueang Nan
+省: น่าน/ Nan 市: แม่จริม/ Mae Charim
+省: น่าน/ Nan 市: เวียงสา/ Wiang Sa
+省: น่าน/ Nan 市: สองแคว/ Song Khwae
+省: น่าน/ Nan 市: สันติสุข/ Santi Suk
+省: บึงกาฬ/ Bueng Kan 市: เซกา/ Seka
+省: บึงกาฬ/ Bueng Kan 市: โซ่พิสัย/ So Phisai
+省: บึงกาฬ/ Bueng Kan 市: บึงโขงหลง/ Bueng Khong Long
+省: บึงกาฬ/ Bueng Kan 市: บุ่งคล้า/ Bung Khla
+省: บึงกาฬ/ Bueng Kan 市: ปากคาด/ Pak Kad
+省: บึงกาฬ/ Bueng Kan 市: พรเจริญ/ Phon Charoen
+省: บึงกาฬ/ Bueng Kan 市: เมืองบึงกาฬ/ Bueng Kan
+省: บึงกาฬ/ Bueng Kan 市: ศรีวิไล/ Sri Wilai
+省: บุรีรัมย์/ Buriram 市: กระสัง/ Krasang
+省: บุรีรัมย์/ Buriram 市: คูเมือง/ Khu Mueang
+省: บุรีรัมย์/ Buriram 市: แคนดง/ Khaen Dong
+省: บุรีรัมย์/ Buriram 市: เฉลิมพระเกียรติ/ Chaloem Phra Kiat
+省: บุรีรัมย์/ Buriram 市: ชำนิ/ Chamni
+省: บุรีรัมย์/ Buriram 市: นางรอง/ Nang Rong
+省: บุรีรัมย์/ Buriram 市: นาโพธิ์/ Na Pho
+省: บุรีรัมย์/ Buriram 市: โนนดินแดง/ Non Din Daeng
+省: บุรีรัมย์/ Buriram 市: โนนสุวรรณ/ Non Suwan
+省: บุรีรัมย์/ Buriram 市: บ้านกรวด/ Ban Kruat
+省: บุรีรัมย์/ Buriram 市: บ้านด่าน/ Ban Dan
+省: บุรีรัมย์/ Buriram 市: บ้านใหม่ไชยพจน์/ Ban Mai Chaiyaphot
+省: บุรีรัมย์/ Buriram 市: ประโคนชัย/ Prakhon Chai
+省: บุรีรัมย์/ Buriram 市: ปะคำ/ Pakham
+省: บุรีรัมย์/ Buriram 市: พลับพลาชัย/ Phlapphla Chai
+省: บุรีรัมย์/ Buriram 市: พุทไธสง/ Phutthaisong
+省: บุรีรัมย์/ Buriram 市: เมืองบุรีรัมย์/ Mueang Buri Ram
+省: บุรีรัมย์/ Buriram 市: ละหานทราย/ Lahan Sai
+省: บุรีรัมย์/ Buriram 市: ลำปลายมาศ/ Lam Plai Mat
+省: บุรีรัมย์/ Buriram 市: สตึก/ Satuek
+省: บุรีรัมย์/ Buriram 市: หนองกี่/ Nong Ki
+省: บุรีรัมย์/ Buriram 市: หนองหงส์/ Nong Hong
+省: บุรีรัมย์/ Buriram 市: ห้วยราช/ Huai Rat
+省: ปทุมธานี/ Pathum Thani 市: คลองหลวง/ Khlong Luang
+省: ปทุมธานี/ Pathum Thani 市: ธัญบุรี/ Thanyaburi
+省: ปทุมธานี/ Pathum Thani 市: เมืองปทุมธานี/ Mueang Pathum Thani
+省: ปทุมธานี/ Pathum Thani 市: ลาดหลุมแก้ว/ Lat Lum Kaeo
+省: ปทุมธานี/ Pathum Thani 市: ลำลูกกา/ Lam Luk Ka
+省: ปทุมธานี/ Pathum Thani 市: สามโคก/ Sam Khok
+省: ปทุมธานี/ Pathum Thani 市: หนองเสือ/ Nong Suea
+省: ประจวบคีรีขันธ์/ Prachuap Khiri Khan 市: กุยบุรี/ Kui Buri
+省: ประจวบคีรีขันธ์/ Prachuap Khiri Khan 市: ทับสะแก/ Thap Sakae
+省: ประจวบคีรีขันธ์/ Prachuap Khiri Khan 市: บางสะพาน/ Bang Saphan
+省: ประจวบคีรีขันธ์/ Prachuap Khiri Khan 市: บางสะพานน้อย/ Bang Saphan Noi
+省: ประจวบคีรีขันธ์/ Prachuap Khiri Khan 市: ปราณบุรี/ Pran Buri
+省: ประจวบคีรีขันธ์/ Prachuap Khiri Khan 市: เมืองประจวบคีรีขันธ์/ Mueang Prachuap Khiri Khan
+省: ประจวบคีรีขันธ์/ Prachuap Khiri Khan 市: สามร้อยยอด/ Sam Roi Yot
+省: ประจวบคีรีขันธ์/ Prachuap Khiri Khan 市: หัวหิน/ Hua Hin
+省: ปราจีนบุรี/ Prachin Buri 市: นาดี/ Na Dee
+省: ปราจีนบุรี/ Prachin Buri 市: บ้านสร้าง/ Ban Sang
+省: ปราจีนบุรี/ Prachin Buri 市: ประจันตคาม/ Prachantakham
+省: ปราจีนบุรี/ Prachin Buri 市: เมืองกบินทร์บุรี/ Kabin Buri
+省: ปราจีนบุรี/ Prachin Buri 市: เมืองปราจีนบุรี/ Mueang Prachin Buri
+省: ปราจีนบุรี/ Prachin Buri 市: ศรีมหาโพธิ/ Si Maha Phot
+省: ปราจีนบุรี/ Prachin Buri 市: ศรีมโหสถ/ Si Mahosot
+省: ปัตตานี/ Pattani 市: กะพ้อ/ Kapho
+省: ปัตตานี/ Pattani 市: โคกโพธิ์/ Khok Pho
+省: ปัตตานี/ Pattani 市: ทุ่งยางแดง/ Thung Yang Daeng District
+省: ปัตตานี/ Pattani 市: ปะนาเระ/ Panare
+省: ปัตตานี/ Pattani 市: มายอ/ Mayo
+省: ปัตตานี/ Pattani 市: เมืองปัตตานี/ Mueang Pattani
+省: ปัตตานี/ Pattani 市: แม่ลาน/ Mae Lan
+省: ปัตตานี/ Pattani 市: ไม้แก่น/ Mai Kaen
+省: ปัตตานี/ Pattani 市: ยะรัง/ Yarang
+省: ปัตตานี/ Pattani 市: ยะหริ่ง/ Yaring
+省: ปัตตานี/ Pattani 市: สายบุรี/ Sai Buri
+省: ปัตตานี/ Pattani 市: หนองจิก/ Nong Chik
+省: พระนครศรีอยุธยา/ Phra Nakhon Si Ayutthaya 市: ท่าเรือ/ Tha Ruea
+省: พระนครศรีอยุธยา/ Phra Nakhon Si Ayutthaya 市: นครหลวง/ Nakhon Luang
+省: พระนครศรีอยุธยา/ Phra Nakhon Si Ayutthaya 市: บางซ้าย/ Bang Sai
+省: พระนครศรีอยุธยา/ Phra Nakhon Si Ayutthaya 市: บางไทร/ Bang Sai
+省: พระนครศรีอยุธยา/ Phra Nakhon Si Ayutthaya 市: บางบาล/ Bang Ban
+省: พระนครศรีอยุธยา/ Phra Nakhon Si Ayutthaya 市: บางปะหัน/ Bang Pahan
+省: พระนครศรีอยุธยา/ Phra Nakhon Si Ayutthaya 市: บางปะอิน/ Bang Pa-in
+省: พระนครศรีอยุธยา/ Phra Nakhon Si Ayutthaya 市: บ้านแพรก/ Ban Phraek
+省: พระนครศรีอยุธยา/ Phra Nakhon Si Ayutthaya 市: ผักไห่/ Phak Hai
+省: พระนครศรีอยุธยา/ Phra Nakhon Si Ayutthaya 市: พระนครศรีอยุธยา/ Phra Nakhon Si Ayutthaya
+省: พระนครศรีอยุธยา/ Phra Nakhon Si Ayutthaya 市: ภาชี/ Phachi
+省: พระนครศรีอยุธยา/ Phra Nakhon Si Ayutthaya 市: มหาราช/ Maha Rat
+省: พระนครศรีอยุธยา/ Phra Nakhon Si Ayutthaya 市: ลาดบัวหลวง/ Lat Bua Luang
+省: พระนครศรีอยุธยา/ Phra Nakhon Si Ayutthaya 市: วังน้อย/ Wang Noi
+省: พระนครศรีอยุธยา/ Phra Nakhon Si Ayutthaya 市: เสนา/ Sena
+省: พระนครศรีอยุธยา/ Phra Nakhon Si Ayutthaya 市: อุทัย/ Uthai
+省: พะเยา/ Phayao 市: จุน/ Chun
+省: พะเยา/ Phayao 市: เชียงคำ/ Chiang Kham
+省: พะเยา/ Phayao 市: เชียงม่วน/ Chiang Muan
+省: พะเยา/ Phayao 市: ดอกคำใต้/ Dok Khamtai
+省: พะเยา/ Phayao 市: ปง/ Pong
+省: พะเยา/ Phayao 市: ภูกามยาว/ Phu Kamyao
+省: พะเยา/ Phayao 市: ภูซาง/ Phu Sang
+省: พะเยา/ Phayao 市: เมืองพะเยา/ Mueang Phayao
+省: พะเยา/ Phayao 市: แม่ใจ/ Mae Chai
+省: พังงา/ Phang Nga 市: กะปง/ Kapong
+省: พังงา/ Phang Nga 市: เกาะยาว/ Ko Yao
+省: พังงา/ Phang Nga 市: คุระบุรี/ Khura Buri
+省: พังงา/ Phang Nga 市: ตะกั่วทุ่ง/ Takua Thung
+省: พังงา/ Phang Nga 市: ตะกั่วป่า/ Takua Pa
+省: พังงา/ Phang Nga 市: ทับปุด/ Thap Put
+省: พังงา/ Phang Nga 市: ท้ายเหมือง/ Thai Mueang
+省: พังงา/ Phang Nga 市: เมืองพังงา/ Mueang Phangnga
+省: พัทลุง/ Phatthalung 市: กงหรา/ Kong Ra
+省: พัทลุง/ Phatthalung 市: เขาชัยสน/ Khao Chaison
+省: พัทลุง/ Phatthalung 市: ควนขนุน/ Khuan Khanun
+省: พัทลุง/ Phatthalung 市: ตะโหมด/ Tamot
+省: พัทลุง/ Phatthalung 市: บางแก้ว/ Bang Kaeo
+省: พัทลุง/ Phatthalung 市: ปากพะยูน/ Pak Phayun
+省: พัทลุง/ Phatthalung 市: ป่าบอน/ Pa Bon
+省: พัทลุง/ Phatthalung 市: ป่าพะยอม/ Pa Phayom
+省: พัทลุง/ Phatthalung 市: เมืองพัทลุง/ Mueang Phatthalung
+省: พัทลุง/ Phatthalung 市: ศรีนครินทร์/ Srinagarindra
+省: พัทลุง/ Phatthalung 市: ศรีบรรพต/ Si Banphot
+省: พิจิตร/ Phichit 市: ดงเจริญ/ Dong Charoen
+省: พิจิตร/ Phichit 市: ตะพานหิน/ Taphan Hin
+省: พิจิตร/ Phichit 市: ทับคล้อ/ Tap Khlo
+省: พิจิตร/ Phichit 市: บางมูลนาก/ Bang Mun Nak
+省: พิจิตร/ Phichit 市: บึงนาราง/ Bueng Na Rang
+省: พิจิตร/ Phichit 市: โพทะเล/ Pho Thale
+省: พิจิตร/ Phichit 市: โพธิ์ประทับช้าง/ Pho Prathap Chang
+省: พิจิตร/ Phichit 市: เมืองพิจิตร/ Mueang Phichit
+省: พิจิตร/ Phichit 市: วชิรบารมี/ Wachirabarami
+省: พิจิตร/ Phichit 市: วังทรายพูน/ Wang Sai Phun
+省: พิจิตร/ Phichit 市: สากเหล็ก/ Sak Lek
+省: พิจิตร/ Phichit 市: สามง่าม/ Sam Ngam
+省: พิษณุโลก/ Phitsanulok 市: ชาติตระการ/ Chat Trakan
+省: พิษณุโลก/ Phitsanulok 市: นครไทย/ Nakhon Thai
+省: พิษณุโลก/ Phitsanulok 市: เนินมะปราง/ Noen Maprang
+省: พิษณุโลก/ Phitsanulok 市: บางกระทุ่ม/ Bang Krathum
+省: พิษณุโลก/ Phitsanulok 市: บางระกำ/ Bang Rakam
+省: พิษณุโลก/ Phitsanulok 市: พรหมพิราม/ Phrom Phiram
+省: พิษณุโลก/ Phitsanulok 市: เมืองพิษณุโลก/ Mueang Phitsanulok
+省: พิษณุโลก/ Phitsanulok 市: วังทอง/ Wang Thong
+省: พิษณุโลก/ Phitsanulok 市: วัดโบสถ์/ Wat Bot
+省: เพชรบุรี/ Phetchaburi 市: แก่งกระจาน/ Kaeng Krachan
+省: เพชรบุรี/ Phetchaburi 市: เขาย้อย/ Khao Yoi
+省: เพชรบุรี/ Phetchaburi 市: ชะอำ/ Cha-am
+省: เพชรบุรี/ Phetchaburi 市: ท่ายาง/ Tha Yang
+省: เพชรบุรี/ Phetchaburi 市: บ้านลาด/ Ban Lat
+省: เพชรบุรี/ Phetchaburi 市: บ้านแหลม/ Ban Laem
+省: เพชรบุรี/ Phetchaburi 市: เมืองเพชรบุรี/ Mueang Phetchaburi
+省: เพชรบุรี/ Phetchaburi 市: หนองหญ้าปล้อง/ Nong Ya Plong
+省: เพชรบูรณ์/ Phetchabun 市: เขาค้อ/ Khao Kho
+省: เพชรบูรณ์/ Phetchabun 市: ชนแดน/ Chon Daen
+省: เพชรบูรณ์/ Phetchabun 市: น้ำหนาว/ Nam Nao
+省: เพชรบูรณ์/ Phetchabun 市: บึงสามพัน/ Bueng Sam Phan
+省: เพชรบูรณ์/ Phetchabun 市: เมืองเพชรบูรณ์/ Mueang Phetchabun
+省: เพชรบูรณ์/ Phetchabun 市: วังโป่ง/ Wang Pong
+省: เพชรบูรณ์/ Phetchabun 市: วิเชียรบุรี/ Wichian Buri
+省: เพชรบูรณ์/ Phetchabun 市: ศรีเทพ/ Si Thep
+省: เพชรบูรณ์/ Phetchabun 市: หนองไผ่/ Nong Phai
+省: เพชรบูรณ์/ Phetchabun 市: หล่มเก่า/ Lom Kao
+省: เพชรบูรณ์/ Phetchabun 市: หล่มสัก/ Lom Sak
+省: แพร่/ Phrae 市: เด่นชัย/ Den Chai
+省: แพร่/ Phrae 市: เมืองแพร่/ Mueang Phrae
+省: แพร่/ Phrae 市: ร้องกวาง/ Rong Kwang
+省: แพร่/ Phrae 市: ลอง/ Long
+省: แพร่/ Phrae 市: วังชิ้น/ Wang Chin
+省: แพร่/ Phrae 市: สอง/ Song
+省: แพร่/ Phrae 市: สูงเม่น/ Sung Men
+省: แพร่/ Phrae 市: หนองม่วงไข่/ Nong Muang Khai
+省: ภูเก็ต/ Phuket 市: กะทู้/ Kathu
+省: ภูเก็ต/ Phuket 市: ถลาง/ Thalang
+省: ภูเก็ต/ Phuket 市: เมืองภูเก็ต/ Mueang Phuket
+省: มหาสารคาม/ Maha Sarakham 市: กันทรวิชัย/ Kantharawichai
+省: มหาสารคาม/ Maha Sarakham 市: กุดรัง/ Kut Rang
+省: มหาสารคาม/ Maha Sarakham 市: แกดำ/ Kae Dam
+省: มหาสารคาม/ Maha Sarakham 市: โกสุมพิสัย/ Kosum Phisai
+省: มหาสารคาม/ Maha Sarakham 市: ชื่นชม/ Chuen Chom
+省: มหาสารคาม/ Maha Sarakham 市: เชียงยืน/ Chiang Yuen
+省: มหาสารคาม/ Maha Sarakham 市: นาเชือก/ Na Chueak
+省: มหาสารคาม/ Maha Sarakham 市: นาดูน/ Na Dun
+省: มหาสารคาม/ Maha Sarakham 市: บรบือ/ Borabue
+省: มหาสารคาม/ Maha Sarakham 市: พยัคฆภูมิพิสัย/ Phayakkhaphum Phisai
+省: มหาสารคาม/ Maha Sarakham 市: เมืองมหาสารคาม/ Mueang Maha Sarakham
+省: มหาสารคาม/ Maha Sarakham 市: ยางสีสุราช/ Yang Sisurat
+省: มหาสารคาม/ Maha Sarakham 市: วาปีปทุม/ Wapi Pathum
+省: มุกดาหาร/ Mukdahan 市: คำชะอี/ Khamcha-I
+省: มุกดาหาร/ Mukdahan 市: ดงหลวง/ Dong Luang
+省: มุกดาหาร/ Mukdahan 市: ดอนตาล/ Don Tan
+省: มุกดาหาร/ Mukdahan 市: นิคมคำสร้อย/ Nikhom Kham Soi
+省: มุกดาหาร/ Mukdahan 市: เมืองมุกดาหาร/ Mueang Mukdahan
+省: มุกดาหาร/ Mukdahan 市: หนองสูง/ Nong Sung
+省: มุกดาหาร/ Mukdahan 市: หว้านใหญ่/ Wan Yai
+省: แม่ฮ่องสอน/ Mae Hong Son 市: Pai/ ปาย 
+省: แม่ฮ่องสอน/ Mae Hong Son 市: ขุนยวม/ Khun Yuam
+省: แม่ฮ่องสอน/ Mae Hong Son 市: ปางมะผ้า/ Pang Mapha
+省: แม่ฮ่องสอน/ Mae Hong Son 市: ปาย/ Pai
+省: แม่ฮ่องสอน/ Mae Hong Son 市: เมือง/ Maung
+省: แม่ฮ่องสอน/ Mae Hong Son 市: เมืองแม่ฮ่องสอน/ Mueang Mae Hong Son
+省: แม่ฮ่องสอน/ Mae Hong Son 市: แม่ลาน้อย/ Mae La Noi
+省: แม่ฮ่องสอน/ Mae Hong Son 市: แม่สะเรียง/ Mae Sariang
+省: แม่ฮ่องสอน/ Mae Hong Son 市: สบเมย/ Sop Moei
+省: ยโสธร/ Yasothon 市: กุดชุม/ Kut Chum
+省: ยโสธร/ Yasothon 市: ค้อวัง/ Kho Wang
+省: ยโสธร/ Yasothon 市: คำเขื่อนแก้ว/ Kham Khuean Kaeo
+省: ยโสธร/ Yasothon 市: ทรายมูล/ Sai Mun
+省: ยโสธร/ Yasothon 市: ไทยเจริญ/ Thai Charoen
+省: ยโสธร/ Yasothon 市: ป่าติ้ว/ Pa Tio
+省: ยโสธร/ Yasothon 市: มหาชนะชัย/ Maha Chana Chai
+省: ยโสธร/ Yasothon 市: เมืองยโสธร/ Mueang Yasothon
+省: ยโสธร/ Yasothon 市: เลิงนกทา/ Loeng Nok Tha
+省: ยะลา/ Yala 市: กรงปินัง/ Krong Pinang
+省: ยะลา/ Yala 市: กาบัง/ Kabang
+省: ยะลา/ Yala 市: ธารโต/ Than To
+省: ยะลา/ Yala 市: บันนังสตา/ Bannang Sata
+省: ยะลา/ Yala 市: เบตง/ Betong
+省: ยะลา/ Yala 市: เมืองยะลา/ Mueang Yala
+省: ยะลา/ Yala 市: ยะหา/ Yaha
+省: ยะลา/ Yala 市: รามัน/ Raman
+省: ร้อยเอ็ด/ Roi Et 市: เกษตรวิสัย/ Kaset Wisai
+省: ร้อยเอ็ด/ Roi Et 市: จตุรพักตรพิมาน/ Chaturaphak Phiman
+省: ร้อยเอ็ด/ Roi Et 市: จังหาร/ Changhan
+省: ร้อยเอ็ด/ Roi Et 市: เชียงขวัญ/ Chiang Khwan
+省: ร้อยเอ็ด/ Roi Et 市: ทุ่งเขาหลวง/ Thung Khao Luang
+省: ร้อยเอ็ด/ Roi Et 市: ธวัชบุรี/ Thawat Buri
+省: ร้อยเอ็ด/ Roi Et 市: ปทุมรัตต์/ Pathum Rat
+省: ร้อยเอ็ด/ Roi Et 市: พนมไพร/ Phanom Phrai
+省: ร้อยเอ็ด/ Roi Et 市: โพธิ์ชัย/ Pho Chai
+省: ร้อยเอ็ด/ Roi Et 市: โพนทราย/ Phon Sai
+省: ร้อยเอ็ด/ Roi Et 市: โพนทอง/ Phon Thong
+省: ร้อยเอ็ด/ Roi Et 市: เมยวดี/ Moei Wadi
+省: ร้อยเอ็ด/ Roi Et 市: เมืองร้อยเอ็ด/ Mueang Roi Et
+省: ร้อยเอ็ด/ Roi Et 市: เมืองสรวง/ Mueang Suang
+省: ร้อยเอ็ด/ Roi Et 市: ศรีสมเด็จ/ Si Somdet
+省: ร้อยเอ็ด/ Roi Et 市: สุวรรณภูมิ/ Suwannaphum
+省: ร้อยเอ็ด/ Roi Et 市: เสลภูมิ/ Selaphum
+省: ร้อยเอ็ด/ Roi Et 市: หนองพอก/ Nong Phok
+省: ร้อยเอ็ด/ Roi Et 市: หนองฮี/ Nong Hi
+省: ร้อยเอ็ด/ Roi Et 市: อาจสามารถ/ At Samat
+省: ระนอง/ Ranong 市: กระบุรี/ Kra Buri
+省: ระนอง/ Ranong 市: กะเปอร์/ Kapoe
+省: ระนอง/ Ranong 市: เมืองระนอง/ Mueang Ranong
+省: ระนอง/ Ranong 市: ละอุ่น/ La-un
+省: ระนอง/ Ranong 市: สุขสำราญ/ Suk Samran
+省: ระยอง/ Rayong 市: แกลง/ Klaeng
+省: ระยอง/ Rayong 市: เขาชะเมา/ Khao Chamao
+省: ระยอง/ Rayong 市: นิคมพัฒนา/ Nikhom Phatthana
+省: ระยอง/ Rayong 市: บ้านค่าย/ Ban Khai
+省: ระยอง/ Rayong 市: บ้านฉาง/ Ban Chang
+省: ระยอง/ Rayong 市: ปลวกแดง/ Pluak Daeng
+省: ระยอง/ Rayong 市: เมืองระยอง/ Mueang Rayong
+省: ระยอง/ Rayong 市: วังจันทร์/ Wang Chan
+省: ราชบุรี/ Ratchaburi 市: จอมบึง/ Chom Bueng
+省: ราชบุรี/ Ratchaburi 市: ดำเนินสะดวก/ Damnoen Saduak
+省: ราชบุรี/ Ratchaburi 市: บางแพ/ Bang Phae
+省: ราชบุรี/ Ratchaburi 市: บ้านคา/ Ban Kha
+省: ราชบุรี/ Ratchaburi 市: บ้านโป่ง/ Ban Pong
+省: ราชบุรี/ Ratchaburi 市: ปากท่อ/ Pak Tho
+省: ราชบุรี/ Ratchaburi 市: โพธาราม/ Photharam
+省: ราชบุรี/ Ratchaburi 市: เมืองราชบุรี/ Mueang Ratchaburi
+省: ราชบุรี/ Ratchaburi 市: วัดเพลง/ Wat Phleng
+省: ราชบุรี/ Ratchaburi 市: สวนผึ้ง/ Suan Phueng
+省: ลพบุรี/ Lopburi 市: โคกเจริญ/ Khok Charoen
+省: ลพบุรี/ Lopburi 市: โคกสำโรง/ Khok Samrong
+省: ลพบุรี/ Lopburi 市: ชัยบาดาล/ Chai Badan
+省: ลพบุรี/ Lopburi 市: ท่าวุ้ง/ Tha Wung
+省: ลพบุรี/ Lopburi 市: ท่าหลวง/ Tha Luang
+省: ลพบุรี/ Lopburi 市: บ้านหมี่/ Ban Mi
+省: ลพบุรี/ Lopburi 市: พัฒนานิคม/ Phatthana Nikhom
+省: ลพบุรี/ Lopburi 市: เมืองลพบุรี/ Mueang Lop Buri
+省: ลพบุรี/ Lopburi 市: ลำสนธิ/ Lam Sonthi
+省: ลพบุรี/ Lopburi 市: สระโบถส์/ Sa Bot
+省: ลพบุรี/ Lopburi 市: สระโบสถ์/ Sa Bot
+省: ลพบุรี/ Lopburi 市: หนองม่วง/ Nong Muang
+省: ลำปาง/ Lampang 市: เกาะคา/ Ko Kha
+省: ลำปาง/ Lampang 市: งาว/ Ngao
+省: ลำปาง/ Lampang 市: แจ้ห่ม/ Chae Hom
+省: ลำปาง/ Lampang 市: เถิน/ Thoen
+省: ลำปาง/ Lampang 市: เมืองปาน/ Mueang Pan
+省: ลำปาง/ Lampang 市: เมืองลำปาง/ Mueang Lampang
+省: ลำปาง/ Lampang 市: แม่ทะ/ Mae Tha
+省: ลำปาง/ Lampang 市: แม่พริก/ Mae Phrik
+省: ลำปาง/ Lampang 市: แม่เมาะ/ Mae Mo
+省: ลำปาง/ Lampang 市: วังเหนือ/ Wang Nuea
+省: ลำปาง/ Lampang 市: สบปราบ/ Sop Prap
+省: ลำปาง/ Lampang 市: เสริมงาม/ Soem Ngam
+省: ลำปาง/ Lampang 市: ห้างฉัตร/ Hang Chat
+省: ลำพูน/ Lamphun 市: ทุ่งหัวช้าง/ Thung Hua Chang
+省: ลำพูน/ Lamphun 市: บ้านธิ/ Ban Thi
+省: ลำพูน/ Lamphun 市: บ้านโฮ่ง/ Ban Hong
+省: ลำพูน/ Lamphun 市: ป่าซาง/ Pa Sang
+省: ลำพูน/ Lamphun 市: เมืองลำพูน/ Mueang Lamphun
+省: ลำพูน/ Lamphun 市: แม่ทา/ Mae Tha
+省: ลำพูน/ Lamphun 市: ลี้/ Li
+省: ลำพูน/ Lamphun 市: เวียงหนองล่อง/ Wiang Nong Long
+省: เลย/ Loei 市: เชียงคาน/ Chiang Khan
+省: เลย/ Loei 市: ด่านซ้าย/ Dan Sai
+省: เลย/ Loei 市: ท่าลี่/ Tha Li
+省: เลย/ Loei 市: นาด้วง/ Na Duang
+省: เลย/ Loei 市: นาแห้ว/ Na Haeo
+省: เลย/ Loei 市: ปากชม/ Pak Chom
+省: เลย/ Loei 市: ผาขาว/ Pha Khao
+省: เลย/ Loei 市: ภูกระดึง/ Phu Kradueng
+省: เลย/ Loei 市: ภูเรือ/ Phu Ruea
+省: เลย/ Loei 市: ภูหลวง/ Phu Luang
+省: เลย/ Loei 市: เมืองเลย/ Mueang Loei
+省: เลย/ Loei 市: วังสะพุง/ Wang Saphung
+省: เลย/ Loei 市: หนองหิน/ Nong Hin
+省: เลย/ Loei 市: เอราวัณ/ Erawan
+省: ศรีสะเกษ/ Sisaket 市: กันทรลักษ์/ Kantharalak
+省: ศรีสะเกษ/ Sisaket 市: กันทรารมย์/ Kanthararom
+省: ศรีสะเกษ/ Sisaket 市: ขุขันธ์/ Khukhan
+省: ศรีสะเกษ/ Sisaket 市: ขุนหาญ/ Khun Han
+省: ศรีสะเกษ/ Sisaket 市: น้ำเกลี้ยง/ Nam Kliang
+省: ศรีสะเกษ/ Sisaket 市: โนนคูณ/ Non Khun
+省: ศรีสะเกษ/ Sisaket 市: บึงบูรพ์/ Bueng Bun
+省: ศรีสะเกษ/ Sisaket 市: เบญจลักษ์/ Benchalak
+省: ศรีสะเกษ/ Sisaket 市: ปรางค์กู่/ Prang Ku
+省: ศรีสะเกษ/ Sisaket 市: พยุห์/ Phayu
+省: ศรีสะเกษ/ Sisaket 市: โพธิ์ศรีสุวรรณ/ Pho Si Suwan
+省: ศรีสะเกษ/ Sisaket 市: ไพรบึง/ Phrai Bueng
+省: ศรีสะเกษ/ Sisaket 市: ภูสิงห์/ Phu Sing
+省: ศรีสะเกษ/ Sisaket 市: เมืองจันทร์/ Mueang Chan
+省: ศรีสะเกษ/ Sisaket 市: เมืองศรีสะเกษ/ Mueang Si Sa Ket
+省: ศรีสะเกษ/ Sisaket 市: ยางชุมน้อย/ Yang Chum Noi
+省: ศรีสะเกษ/ Sisaket 市: ราษีไศล/ Rasi Salai
+省: ศรีสะเกษ/ Sisaket 市: วังหิน/ Wang Hin
+省: ศรีสะเกษ/ Sisaket 市: ศรีรัตนะ/ Si Rattana
+省: ศรีสะเกษ/ Sisaket 市: ศิลาลาด/ Sila Lat
+省: ศรีสะเกษ/ Sisaket 市: ห้วยทับทัน/ Huai Thap Than
+省: ศรีสะเกษ/ Sisaket 市: อุทุมพรพิสัย/ Uthumphon Phisai
+省: สกลนคร/ Sakon Nakhon 市: กุดบาก/ Kut Bak
+省: สกลนคร/ Sakon Nakhon 市: กุสุมาลย์/ Kusuman
+省: สกลนคร/ Sakon Nakhon 市: คำตากล้า/ Kham Ta Kla
+省: สกลนคร/ Sakon Nakhon 市: โคกศรีสุพรรณ/ Khok Si Suphan
+省: สกลนคร/ Sakon Nakhon 市: เจริญศิลป์/ Charoen Sin
+省: สกลนคร/ Sakon Nakhon 市: เต่างอย/ Tao Ngoi
+省: สกลนคร/ Sakon Nakhon 市: นิคมน้ำอูน/ Nikhom Nam Un
+省: สกลนคร/ Sakon Nakhon 市: บ้านม่วง/ Ban Muang
+省: สกลนคร/ Sakon Nakhon 市: พรรณานิคม/ Phanna Nikhom
+省: สกลนคร/ Sakon Nakhon 市: พังโคน/ Phang Khon
+省: สกลนคร/ Sakon Nakhon 市: โพนนาแก้ว/ Phon Na Kaeo
+省: สกลนคร/ Sakon Nakhon 市: ภูพาน/ Phu Phan
+省: สกลนคร/ Sakon Nakhon 市: เมืองสกลนคร/ Mueang Sakon Nakhon
+省: สกลนคร/ Sakon Nakhon 市: วานรนิวาส/ Wanon Niwat
+省: สกลนคร/ Sakon Nakhon 市: วาริชภูมิ/ Waritchaphum
+省: สกลนคร/ Sakon Nakhon 市: สว่างแดนดิน/ Sawang Daen Din District
+省: สกลนคร/ Sakon Nakhon 市: ส่องดาว/ Song Dao
+省: สกลนคร/ Sakon Nakhon 市: อากาศอำนวย/ Akat Amnuai
+省: สงขลา/ Songkhla 市: กระแสสินธุ์/ Krasae Sin
+省: สงขลา/ Songkhla 市: คลองหอยโข่ง/ Khlong Hoi Khong District
+省: สงขลา/ Songkhla 市: ควนเนียง/ Khuan Niang
+省: สงขลา/ Songkhla 市: จะนะ/ Chana
+省: สงขลา/ Songkhla 市: เทพา/ Thepha
+省: สงขลา/ Songkhla 市: นาทวี/ Na Thawi
+省: สงขลา/ Songkhla 市: นาหม่อม/ Na Mom
+省: สงขลา/ Songkhla 市: บางกล่ำ/ Bang Klam
+省: สงขลา/ Songkhla 市: เมืองสงขลา/ Mueang Songkhla
+省: สงขลา/ Songkhla 市: ระโนด/ Ranot
+省: สงขลา/ Songkhla 市: รัตภูมิ/ Rattaphum
+省: สงขลา/ Songkhla 市: สทิงพระ/ Sathing Phra
+省: สงขลา/ Songkhla 市: สะเดา/ Sadao
+省: สงขลา/ Songkhla 市: สะบ้าย้อย/ Saba Yoi
+省: สงขลา/ Songkhla 市: สิงหนคร/ Singhanakhon
+省: สงขลา/ Songkhla 市: หาดใหญ่/ Hat Yai
+省: สตูล/ Satun 市: ควนกาหลง/ Khuan Kalong
+省: สตูล/ Satun 市: ควนโดน/ Khuan Don
+省: สตูล/ Satun 市: ท่าแพ/ Tha Phae
+省: สตูล/ Satun 市: ทุ่งหว้า/ Thung Wa
+省: สตูล/ Satun 市: มะนัง/ Manang
+省: สตูล/ Satun 市: เมืองสตูล/ Mueang Satun
+省: สตูล/ Satun 市: ละงู/ La-ngu
+省: สมุทรปราการ/ Samut Prakan 市: บางบ่อ/ Bang Bo
+省: สมุทรปราการ/ Samut Prakan 市: บางพลี/ Bang Phli
+省: สมุทรปราการ/ Samut Prakan 市: บางเสาธง/ Bang Sao Thong
+省: สมุทรปราการ/ Samut Prakan 市: พระประแดง/ Phra Pradaeng
+省: สมุทรปราการ/ Samut Prakan 市: พระสมุทรเจดีย์/ Phra Samut Chedi
+省: สมุทรปราการ/ Samut Prakan 市: เมืองสมุทรปราการ/ Mueang Samut Prakan
+省: สมุทรสงคราม/ Samut Songkhram 市: บางคนที/ Bang Khonthi
+省: สมุทรสงคราม/ Samut Songkhram 市: เมืองสมุทรสงคราม/ Mueang Samut Songkhram
+省: สมุทรสงคราม/ Samut Songkhram 市: อัมพวา/ Amphawa
+省: สมุทรสาคร/ Samut Sakhon 市: กระทุ่มแบน/ Krathum Baen
+省: สมุทรสาคร/ Samut Sakhon 市: บ้านแพ้ว/ Ban Phaeo
+省: สมุทรสาคร/ Samut Sakhon 市: เมืองสมุทรสาคร/ Mueang Samut Sakhon
+省: สระแก้ว/ Sa Kaeo 市: เขาฉกรรจ์/ Khao Chakan
+省: สระแก้ว/ Sa Kaeo 市: คลองหาด/ Khlong Hat
+省: สระแก้ว/ Sa Kaeo 市: โคกสูง/ Khok Sung
+省: สระแก้ว/ Sa Kaeo 市: ตาพระยา/ Ta Phraya
+省: สระแก้ว/ Sa Kaeo 市: เมืองสระแก้ว/ Mueang Sa Kaeo
+省: สระแก้ว/ Sa Kaeo 市: วังน้ำเย็น/ Wang Nam Yen
+省: สระแก้ว/ Sa Kaeo 市: วังสมบูรณ์/ Wang Sombun
+省: สระแก้ว/ Sa Kaeo 市: วัฒนานคร/ Watthana Nakhon
+省: สระแก้ว/ Sa Kaeo 市: อรัญประเทศ/ Aranyaprathet
+省: สระบุรี/ Saraburi 市: แก่งคอย/ Kaeng Khoi
+省: สระบุรี/ Saraburi 市: เฉลิมพระเกียรติ/ Chaloem Phra Kiat
+省: สระบุรี/ Saraburi 市: ดอนพุด/ Don Phut
+省: สระบุรี/ Saraburi 市: บ้านหมอ/ Ban Mo
+省: สระบุรี/ Saraburi 市: พระพุทธบาท/ Phra Phutthabat
+省: สระบุรี/ Saraburi 市: มวกเหล็ก/ Muak Lek
+省: สระบุรี/ Saraburi 市: เมืองสระบุรี/ Mueang Saraburi
+省: สระบุรี/ Saraburi 市: วังม่วง/ Wang Muang
+省: สระบุรี/ Saraburi 市: วิหารแดง/ Wihan Daeng
+省: สระบุรี/ Saraburi 市: เสาไห้/ Sao Hai
+省: สระบุรี/ Saraburi 市: หนองแค/ Nong Khae
+省: สระบุรี/ Saraburi 市: หนองแซง/ Nong Saeng
+省: สระบุรี/ Saraburi 市: หนองโดน/ Nong Don
+省: สิงห์บุรี/ Sing Buri 市: ค่ายบางระจัน/ Khai Bang Rachan
+省: สิงห์บุรี/ Sing Buri 市: ท่าช้าง/ Tha Chang
+省: สิงห์บุรี/ Sing Buri 市: บางระจัน/ Bang Rachan
+省: สิงห์บุรี/ Sing Buri 市: พรหมบุรี/ Phrom Buri
+省: สิงห์บุรี/ Sing Buri 市: เมืองสิงห์บุรี/ Mueang Sing Buri
+省: สิงห์บุรี/ Sing Buri 市: อินทร์บุรี/ In Buri
+省: สุโขทัย/ Sukhothai 市: กงไกรลาศ/ Kong Krailat
+省: สุโขทัย/ Sukhothai 市: คีรีมาศ/ Khiri Mat
+省: สุโขทัย/ Sukhothai 市: ทุ่งเสลี่ยม/ Thung Saliam
+省: สุโขทัย/ Sukhothai 市: บ้านด่านลานหอย/ Ban Dan Lan Hoi
+省: สุโขทัย/ Sukhothai 市: เมืองสุโขทัย/ Mueang Sukhothai
+省: สุโขทัย/ Sukhothai 市: ศรีนคร/ Si Nakhon
+省: สุโขทัย/ Sukhothai 市: ศรีสัชนาลัย/ Si Satchanalai
+省: สุโขทัย/ Sukhothai 市: ศรีสำโรง/ Si Samrong
+省: สุโขทัย/ Sukhothai 市: สวรรคโลก/ Sawankhalok
+省: สุพรรณบุรี/ Suphanburi 市: ดอนเจดีย์/ Don Chedi
+省: สุพรรณบุรี/ Suphanburi 市: ด่านช้าง/ Dan Chang
+省: สุพรรณบุรี/ Suphanburi 市: เดิมบางนางบวช/ Doem Bang Nang Buat
+省: สุพรรณบุรี/ Suphanburi 市: บางปลาม้า/ Bang Pla Ma
+省: สุพรรณบุรี/ Suphanburi 市: เมืองสุพรรณบุรี/ Mueang Suphan Buri
+省: สุพรรณบุรี/ Suphanburi 市: ศรีประจันต์/ Si Prachan
+省: สุพรรณบุรี/ Suphanburi 市: สองพี่น้อง/ Song Phi Nong
+省: สุพรรณบุรี/ Suphanburi 市: สามชุก/ Sam Chuk
+省: สุพรรณบุรี/ Suphanburi 市: หนองหญ้าไซ/ Nong Ya Sai
+省: สุพรรณบุรี/ Suphanburi 市: อู่ทอง/ U Thong
+省: สุราษฎร์ธานี/ Surat Thani 市: กาญจนดิษฐ์/ Kanchanadit
+省: สุราษฎร์ธานี/ Surat Thani 市: เกาะเต่า/ Koh Tao
+省: สุราษฎร์ธานี/ Surat Thani 市: เกาะพะงัน/ Ko Pha-ngan
+省: สุราษฎร์ธานี/ Surat Thani 市: เกาะสมุย/ Ko Samui
+省: สุราษฎร์ธานี/ Surat Thani 市: คีรีรัฐนิคม/ Khiri Rat  Nikhom
+省: สุราษฎร์ธานี/ Surat Thani 市: เคียนซา/ Khian Sa
+省: สุราษฎร์ธานี/ Surat Thani 市: ชัยบุรี/ Chai Buri
+省: สุราษฎร์ธานี/ Surat Thani 市: ไชยา/ Chaiya
+省: สุราษฎร์ธานี/ Surat Thani 市: ดอนสัก/ Don Sak
+省: สุราษฎร์ธานี/ Surat Thani 市: ท่าฉาง/ Tha Chang
+省: สุราษฎร์ธานี/ Surat Thani 市: ท่าชนะ/ Tha Chana
+省: สุราษฎร์ธานี/ Surat Thani 市: ท่าช้าง/ Tha Chang
+省: สุราษฎร์ธานี/ Surat Thani 市: บ้างตาขุน/ Ban Ta Khun
+省: สุราษฎร์ธานี/ Surat Thani 市: บ้านตาขุน/ Ban Ta Khun
+省: สุราษฎร์ธานี/ Surat Thani 市: บ้านนาเดิม/ Ban Na Doem
+省: สุราษฎร์ธานี/ Surat Thani 市: บ้านนาสาร/ Ban Na San
+省: สุราษฎร์ธานี/ Surat Thani 市: พนม/ Phanom
+省: สุราษฎร์ธานี/ Surat Thani 市: พระแสง/ Phrasaeng
+省: สุราษฎร์ธานี/ Surat Thani 市: พุนพิน/ Phunphin
+省: สุราษฎร์ธานี/ Surat Thani 市: เมืองสุราษฎร์ธานี/ Mueang Surat Thani
+省: สุราษฎร์ธานี/ Surat Thani 市: วิภาวดี/ Vibhavadi
+省: สุราษฎร์ธานี/ Surat Thani 市: เวียงสระ/ Wiang Sa
+省: สุราษฎร์ธานี/ Surat Thani 市: เวียงสา/ Wiang Sa
+省: สุรินทร์/ Surin 市: กาบเชิง/ Kap Choeng
+省: สุรินทร์/ Surin 市: เขวาสินรินทร์/ Khwao Sinarin
+省: สุรินทร์/ Surin 市: จมพระ/ Chom Phra
+省: สุรินทร์/ Surin 市: จอมพระ/ Jom Phra
+省: สุรินทร์/ Surin 市: ชุมพลบุรี/ Chumphon Buri
+省: สุรินทร์/ Surin 市: ท่าตูม/ Tha Tum
+省: สุรินทร์/ Surin 市: โนนนารายณ์/ Non Narai
+省: สุรินทร์/ Surin 市: บัวเชด/ Buachet
+省: สุรินทร์/ Surin 市: ปราสาท/ Prasat
+省: สุรินทร์/ Surin 市: พนมดงรัก/ Phanom Dong Rak
+省: สุรินทร์/ Surin 市: เมืองสุรินทร์/ Mueang Surin
+省: สุรินทร์/ Surin 市: รัตนบุรี/ Rattanaburi
+省: สุรินทร์/ Surin 市: ลำดวน/ Lamduan
+省: สุรินทร์/ Surin 市: ศรีณรงค์/ Si Narong
+省: สุรินทร์/ Surin 市: ศีขรภูมิ/ Sikhoraphum
+省: สุรินทร์/ Surin 市: สนม/ Sanom
+省: สุรินทร์/ Surin 市: สังขะ/ Sangkha
+省: สุรินทร์/ Surin 市: สำโรงทาบ/ Samrong Thap
+省: หนองคาย/ Nong Khai 市: เซกา/ Seka
+省: หนองคาย/ Nong Khai 市: โซ่พิสัย/ So Phisai
+省: หนองคาย/ Nong Khai 市: ท่าบ่อ/ Tha Bo
+省: หนองคาย/ Nong Khai 市: บึงกาฬ/ Bueng Kan
+省: หนองคาย/ Nong Khai 市: บึงโขงหลง/ Bueng Khong Long
+省: หนองคาย/ Nong Khai 市: บึงโขลงหลงฝBueng Khong Long
+省: หนองคาย/ Nong Khai 市: บุ่งคล้า/ Bung Khla
+省: หนองคาย/ Nong Khai 市: บุ่งคล้า/ Bung Khla
+省: หนองคาย/ Nong Khai 市: เฝ้าไร่/ Fao Rai
+省: หนองคาย/ Nong Khai 市: พรเจริญ/ Porn Charoen
+省: หนองคาย/ Nong Khai 市: โพธิ์ตาก/ Pho Tak
+省: หนองคาย/ Nong Khai 市: โพนพิสัย/ Phon Phisai
+省: หนองคาย/ Nong Khai 市: เมืองหนองคาย/ Mueang Nong Khai
+省: หนองคาย/ Nong Khai 市: รัตนวาปี/ Rattanawapi
+省: หนองคาย/ Nong Khai 市: ศรีเชียงใหม่/ Si Chiang Mai
+省: หนองคาย/ Nong Khai 市: ศรีวิไล/ Sri Wilai
+省: หนองคาย/ Nong Khai 市: สระใคร/ Sakhrai
+省: หนองคาย/ Nong Khai 市: สังคม/ Sangkhom
+省: หนองบัวลำภู/ Nongbua Lamphu 市: กุดดินจี่ เก่ากลอย ดงสวรรค์/ Kuddinjww Gauogloy Dongsawan
+省: หนองบัวลำภู/ Nongbua Lamphu 市: นากลาง/ Na Klang
+省: หนองบัวลำภู/ Nongbua Lamphu 市: นาวัง/ Na Wang
+省: หนองบัวลำภู/ Nongbua Lamphu 市: โนนสัง/ Non Sang
+省: หนองบัวลำภู/ Nongbua Lamphu 市: ป่ากุดดินจี่/ Pa Guddingee
+省: หนองบัวลำภู/ Nongbua Lamphu 市: เมืองหนองบัวลำภู/ Nong Bua Lam Phu
+省: หนองบัวลำภู/ Nongbua Lamphu 市: ศรีบุญเรือง/ Si Bun Rueang
+省: หนองบัวลำภู/ Nongbua Lamphu 市: สุวรรณคูหา/ Suwannakhuha
+省: อ่างทอง/ Ang Thong 市: ไชโย/ Chaiyo
+省: อ่างทอง/ Ang Thong 市: ป่าโมก/ Pa Mok
+省: อ่างทอง/ Ang Thong 市: โพธิ์ทอง/ Pho Thong
+省: อ่างทอง/ Ang Thong 市: เมืองอ่างทอง/ Mueang Ang Thong
+省: อ่างทอง/ Ang Thong 市: วิเศษชัยชาญ/ Wiset Chai Chan
+省: อ่างทอง/ Ang Thong 市: สามโก้/ Samko
+省: อ่างทอง/ Ang Thong 市: แสวงหา/ Sawaeng Ha
+省: อำนาจเจริญ/ Amnat Charoen 市: ชานุมาน/ Chanuman
+省: อำนาจเจริญ/ Amnat Charoen 市: ปทุมราชวงศา/ Pathum Ratchawongsa
+省: อำนาจเจริญ/ Amnat Charoen 市: พนา/ Phana
+省: อำนาจเจริญ/ Amnat Charoen 市: เมืองอำนาจเจริญ/ Mueang Amnat Charoen
+省: อำนาจเจริญ/ Amnat Charoen 市: ลืออำนาจ/ Lue Amnat
+省: อำนาจเจริญ/ Amnat Charoen 市: เสนางคนิคม/ Senangkhanikhom
+省: อำนาจเจริญ/ Amnat Charoen 市: หัวตะพาน/ Hua Taphan
+省: อุดรธานี/ Udon Thani 市: กุดจับ/ Kut Chap
+省: อุดรธานี/ Udon Thani 市: กุมภวาปี/ Kumphawapi
+省: อุดรธานี/ Udon Thani 市: กู่แก้ว/ Ku Kaeo
+省: อุดรธานี/ Udon Thani 市: ไชยวาน/ Chai Wan
+省: อุดรธานี/ Udon Thani 市: ทุ่งฝน/ Thung Fon
+省: อุดรธานี/ Udon Thani 市: นายูง/ Na Yung
+省: อุดรธานี/ Udon Thani 市: น้ำโสม/ Nam Som
+省: อุดรธานี/ Udon Thani 市: โนนสะอาด/ Non Sa-at
+省: อุดรธานี/ Udon Thani 市: บ้านดุง/ Ban Dung
+省: อุดรธานี/ Udon Thani 市: บ้านผือ/ Ban Phue
+省: อุดรธานี/ Udon Thani 市: ประจักษ์ศิลปาคม/ Prachaksinlapakhom
+省: อุดรธานี/ Udon Thani 市: พิบูลย์รักษ์/ Phi Boon Rak
+省: อุดรธานี/ Udon Thani 市: พิบูลรักษ์/ Phibun Rak
+省: อุดรธานี/ Udon Thani 市: เพ็ญ/ Phen
+省: อุดรธานี/ Udon Thani 市: เมืองอุดรธานี/ Mueang Udon Thani
+省: อุดรธานี/ Udon Thani 市: วังสามหมอ/ Wang Sam Mo
+省: อุดรธานี/ Udon Thani 市: ศรีธาตุ/ Si That
+省: อุดรธานี/ Udon Thani 市: สร้างคอม/ Sang Khom
+省: อุดรธานี/ Udon Thani 市: หนองวัวซอ/ Nong Wua So
+省: อุดรธานี/ Udon Thani 市: หนองแสง/ Nong Saeng
+省: อุดรธานี/ Udon Thani 市: หนองหาน/ Nong Han
+省: อุตรดิตถ์/ Uttaradit 市: ตรอน/ Tron
+省: อุตรดิตถ์/ Uttaradit 市: ทองแสนขัน/ Thong Saen Khan
+省: อุตรดิตถ์/ Uttaradit 市: ท่าปลา/ Tha Pla
+省: อุตรดิตถ์/ Uttaradit 市: น้ำปาด/ Nam Pat
+省: อุตรดิตถ์/ Uttaradit 市: บ้านโคก/ Ban Khok
+省: อุตรดิตถ์/ Uttaradit 市: พิชัย/ Phichai
+省: อุตรดิตถ์/ Uttaradit 市: ฟากท่า/ Fak Tha
+省: อุตรดิตถ์/ Uttaradit 市: เมืองอุตรดิตถ์/ Mueang Uttaradit
+省: อุตรดิตถ์/ Uttaradit 市: ลับแล/ Laplae
+省: อุทัยธานี/ Uthai Thani 市: เขาบางแกรก/ Kao Bang Kag
+省: อุทัยธานี/ Uthai Thani 市: ทัพทัน/ Thap Than
+省: อุทัยธานี/ Uthai Thani 市: บ้านไร่/ Ban Rai
+省: อุทัยธานี/ Uthai Thani 市: บ้านใหม่คองเคียน/ Ban Mai Kong Kain
+省: อุทัยธานี/ Uthai Thani 市: เมือง/ Mueang Uthai Thani
+省: อุทัยธานี/ Uthai Thani 市: เมืองอุทัยธานี/ Mueang Uthai Thani
+省: อุทัยธานี/ Uthai Thani 市: ลานสัก/ Lan Sak
+省: อุทัยธานี/ Uthai Thani 市: วังหิน/ Wang Hin
+省: อุทัยธานี/ Uthai Thani 市: สวนสัก/ Suan Sak
+省: อุทัยธานี/ Uthai Thani 市: สว่างอารมณ์/ Sawang Arom
+省: อุทัยธานี/ Uthai Thani 市: หนองขาหย่าง/ Nong Khayang
+省: อุทัยธานี/ Uthai Thani 市: หนองฉาง/ Nong Chang
+省: อุทัยธานี/ Uthai Thani 市: ห้วยคต/ Huai Khot
+省: อุบลราชธานี/ Ubon Ratchathani 市: กุดข้าวปุ้น/ Kut Khaopun
+省: อุบลราชธานี/ Ubon Ratchathani 市: เขมราฐ/ Khemarat
+省: อุบลราชธานี/ Ubon Ratchathani 市: เขื่องใน/ Khueang Nai
+省: อุบลราชธานี/ Ubon Ratchathani 市: โขงเจียม/ Khong Chiam
+省: อุบลราชธานี/ Ubon Ratchathani 市: ดอนมดแดง/ Don Mot Daeng
+省: อุบลราชธานี/ Ubon Ratchathani 市: เดชอุดม/ Det Udom
+省: อุบลราชธานี/ Ubon Ratchathani 市: ตระการพืชผล/ Trakan Phuet Phon
+省: อุบลราชธานี/ Ubon Ratchathani 市: ตาลสุม/ Tan Sum
+省: อุบลราชธานี/ Ubon Ratchathani 市: ทุ่งศรีอุดม/ Thung Si Udom
+省: อุบลราชธานี/ Ubon Ratchathani 市: นาจะหลวย/ Na Chaluai
+省: อุบลราชธานี/ Ubon Ratchathani 市: นาตาล/ Na Tan
+省: อุบลราชธานี/ Ubon Ratchathani 市: นาเยีย/ Na Yia
+省: อุบลราชธานี/ Ubon Ratchathani 市: น้ำขุ่น/ Nam Khun
+省: อุบลราชธานี/ Ubon Ratchathani 市: น้ำยืน/ Nam Yuen
+省: อุบลราชธานี/ Ubon Ratchathani 市: บุณฑริก/ Buntharik
+省: อุบลราชธานี/ Ubon Ratchathani 市: พิบูลมังสาหาร/ Phibun Mangsahan
+省: อุบลราชธานี/ Ubon Ratchathani 市: โพธิ์ไทร/ Pho Sai
+省: อุบลราชธานี/ Ubon Ratchathani 市: ม่วงสามสิบ/ Muang Sam Sip
+省: อุบลราชธานี/ Ubon Ratchathani 市: เมืองอุบลราชธานี/ Mueang Ubon Ratchathani
+省: อุบลราชธานี/ Ubon Ratchathani 市: วารินชำราบ/ Warin Chamrap
+省: อุบลราชธานี/ Ubon Ratchathani 市: ศรีเมืองใหม่/ Si Mueang Mai
+省: อุบลราชธานี/ Ubon Ratchathani 市: สว่างวีระวงศ์/ Sawang Wirawong
+省: อุบลราชธานี/ Ubon Ratchathani 市: สำโรง/ Samrong
+省: อุบลราชธานี/ Ubon Ratchathani 市: สิรินธร/ Sirindhorn
+省: อุบลราชธานี/ Ubon Ratchathani 市: เหล่าเสือโก้ก/ Lao Suea Kok

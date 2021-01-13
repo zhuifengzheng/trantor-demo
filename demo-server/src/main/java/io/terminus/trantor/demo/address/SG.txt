@@ -1,0 +1,83 @@
+省: Singapore 市: 01  Raffles  Place  Cecil  Marina  People's  Park
+省: Singapore 市: 02  Raffles  Place  Cecil  Marina  People's  Park
+省: Singapore 市: 03  Raffles  Place  Cecil  Marina  People's  Park
+省: Singapore 市: 04  Raffles  Place  Cecil  Marina  People's  Park
+省: Singapore 市: 05  Raffles  Place  Cecil  Marina  People's  Park
+省: Singapore 市: 06  Raffles  Place  Cecil  Marina  People's  Park
+省: Singapore 市: 07  Anson  Tanjong  Pagar
+省: Singapore 市: 08  Anson  Tanjong  Pagar
+省: Singapore 市: 09  Telok  Blangah  Harbourfront
+省: Singapore 市: 10  Telok  Blangah  Harbourfront
+省: Singapore 市: 11  Pasir  Panjang  Hong  Leong  Garden  Clementi  New  Town
+省: Singapore 市: 12  Pasir  Panjang  Hong  Leong  Garden  Clementi  New  Town
+省: Singapore 市: 13  Pasir  Panjang  Hong  Leong  Garden  Clementi  New  Town
+省: Singapore 市: 14  Queenstown  Tiong  Bahru
+省: Singapore 市: 15  Queenstown  Tiong  Bahru
+省: Singapore 市: 16  Queenstown  Tiong  Bahru
+省: Singapore 市: 17  High  Street  Beach  Road  (part)
+省: Singapore 市: 18  Middle  Road  Golden  Mile
+省: Singapore 市: 19  Middle  Road  Golden  Mile
+省: Singapore 市: 20  Little  India
+省: Singapore 市: 21  Little  India
+省: Singapore 市: 22  Orchard  Cairnhill  River  Valley
+省: Singapore 市: 23  Orchard  Cairnhill  River  Valley
+省: Singapore 市: 24  Ardmore  Bukit  Timah  Holland  Road  Tanglin
+省: Singapore 市: 25  Ardmore  Bukit  Timah  Holland  Road  Tanglin
+省: Singapore 市: 26  Ardmore  Bukit  Timah  Holland  Road  Tanglin
+省: Singapore 市: 27  Ardmore  Bukit  Timah  Holland  Road  Tanglin
+省: Singapore 市: 28  Watten  Estate  Novena  Thomson
+省: Singapore 市: 29  Watten  Estate  Novena  Thomson
+省: Singapore 市: 30  Watten  Estate  Novena  Thomson
+省: Singapore 市: 31  Balestier  Toa  Payoh  Serangoon
+省: Singapore 市: 32  Balestier  Toa  Payoh  Serangoon
+省: Singapore 市: 33  Balestier  Toa  Payoh  Serangoon
+省: Singapore 市: 34  Macpherson  Braddell
+省: Singapore 市: 35  Macpherson  Braddell
+省: Singapore 市: 36  Macpherson  Braddell
+省: Singapore 市: 37  Macpherson  Braddell
+省: Singapore 市: 38  Geylang  Eunos
+省: Singapore 市: 39  Geylang  Eunos
+省: Singapore 市: 40  Geylang  Eunos
+省: Singapore 市: 41  Geylang  Eunos
+省: Singapore 市: 42  Katong  Joo  Chiat  Amber  Road
+省: Singapore 市: 43  Katong  Joo  Chiat  Amber  Road
+省: Singapore 市: 44  Katong  Joo  Chiat  Amber  Road
+省: Singapore 市: 45  Katong  Joo  Chiat  Amber  Road
+省: Singapore 市: 46  Bedok  Upper  East  Coast  Eastwood  Kew  Drive
+省: Singapore 市: 47  Bedok  Upper  East  Coast  Eastwood  Kew  Drive
+省: Singapore 市: 48  Bedok  Upper  East  Coast  Eastwood  Kew  Drive
+省: Singapore 市: 49  Loyang  Changi
+省: Singapore 市: 50  Loyang  Changi
+省: Singapore 市: 51  Tampines  Pasir  Ris
+省: Singapore 市: 52  Tampines  Pasir  Ris
+省: Singapore 市: 53  Serangoon  Garden  Hougang  Ponggol
+省: Singapore 市: 54  Serangoon  Garden  Hougang  Ponggol
+省: Singapore 市: 55  Serangoon  Garden  Hougang  Ponggol
+省: Singapore 市: 56  Bishan  Ang  Mo  Kio
+省: Singapore 市: 57  Bishan  Ang  Mo  Kio
+省: Singapore 市: 58  Upper  Bukit  Timah  Clementi  Park  Ulu  Pandan
+省: Singapore 市: 59  Upper  Bukit  Timah  Clementi  Park  Ulu  Pandan
+省: Singapore 市: 60  Jurong
+省: Singapore 市: 61  Jurong
+省: Singapore 市: 62  Jurong
+省: Singapore 市: 63  Jurong
+省: Singapore 市: 64  Jurong
+省: Singapore 市: 65  Hillview  Dairy  Farm  Bukit  Panjang  Choa  Chu  Kang
+省: Singapore 市: 66  Hillview  Dairy  Farm  Bukit  Panjang  Choa  Chu  Kang
+省: Singapore 市: 67  Hillview  Dairy  Farm  Bukit  Panjang  Choa  Chu  Kang
+省: Singapore 市: 68  Hillview  Dairy  Farm  Bukit  Panjang  Choa  Chu  Kang
+省: Singapore 市: 69  Lim  Chu  Kang  Tengah
+省: Singapore 市: 70  Lim  Chu  Kang  Tengah
+省: Singapore 市: 71  Lim  Chu  Kang  Tengah
+省: Singapore 市: 72  Kranji  Woodgrove
+省: Singapore 市: 73  Kranji  Woodgrove
+省: Singapore 市: 75  Yishun  Sembawang
+省: Singapore 市: 76  Yishun  Sembawang
+省: Singapore 市: 77  Upper  Thomson  Springleaf
+省: Singapore 市: 78  Upper  Thomson  Springleaf
+省: Singapore 市: 79  Seletar
+省: Singapore 市: 80  Seletar
+省: Singapore 市: 81  Loyang  Changi
+省: Singapore 市: 82  Serangoon  Garden  Hougang  Ponggol
+省: Singapore 市: 90  ROBINSON  ROAD  POST  OFFICE
+省: Singapore 市: 91  SUNTEC  CITY

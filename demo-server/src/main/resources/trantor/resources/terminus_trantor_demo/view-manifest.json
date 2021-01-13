@@ -31,4 +31,33 @@
     "template": "user-register-view.xml",
     "type": "List"
   }
+,
+
+  {
+    "key": "BackendCategory_list",
+    "type": "List",
+    "forModel": "terminus_trantor_demo_BackendCategory",
+    "template": "backendCategory-list-view.xml",
+    "isDefault": true
+  },
+  {
+    "key": "BackendCategory_form",
+    "type": "Form",
+    "forModel": "terminus_trantor_demo_BackendCategory",
+    "template": "backendCategory-form-view.xml",
+    "isDefault": true
+  },
+  {
+    "key": "BackendCategory_createChild",
+    "type": "Form",
+    "forModel": "terminus_trantor_demo_BackendCategory",
+    "template": "backendCategory-createChild-view.xml"
+  },
+  {
+    "key": "BackendCategory_extraInfo",
+    "type": "Detail",
+    "forModel": "terminus_trantor_demo_BackendCategory",
+    "template": "backendCategory-extraInfo-view.xml",
+    "isDefault": true
+  }
 ]
