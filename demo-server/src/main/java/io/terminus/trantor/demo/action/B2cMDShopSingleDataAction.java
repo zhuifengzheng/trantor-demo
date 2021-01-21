@@ -54,7 +54,7 @@ public class B2cMDShopSingleDataAction implements SingleDataAction<B2cMDShopVO> 
     @TAction(modelClass = B2cMDShopVO.class)
     public String grant() {
         try {
-            String grantUrl = "https://auth.lazada.com/oauth/authorize?response_type=code&force_auth=true&redirect_uri=https://work.terminus.io&client_id=124923";// + 124923;
+            String grantUrl = "https://auth.lazada.com/oauth/authorize?response_type=code&force_auth=true&redirect_uri=https://work.terminus.io&client_id=111111";// + 111111;
             log.info("认证授权地址：" + grantUrl);
             return grantUrl;
         } catch (Exception e) {
@@ -97,8 +97,8 @@ public class B2cMDShopSingleDataAction implements SingleDataAction<B2cMDShopVO> 
         shopVO.setShopType("");
         shopVO.setChannel(new MDChannelVO().setName("xxx渠道"));
         shopVO.setAccessToken("");
-        shopVO.setAppKey("124923"); // 授权key
-        shopVO.setAppSecret("BtPwqWoyErRwsaDkU3tasJXRds424XKR");
+        shopVO.setAppKey("111111"); // 授权key
+        shopVO.setAppSecret("xxxxxx");
         shopVO.setGateWay("");
         shopVO.setOutCode("");
         shopVO.setMyIsOnShelfAudit(false);

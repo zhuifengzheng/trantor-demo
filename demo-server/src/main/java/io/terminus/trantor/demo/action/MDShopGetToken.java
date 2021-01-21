@@ -22,11 +22,11 @@ public class MDShopGetToken {
      * @throws Exception
      */
     public static void getToken() throws Exception{
-//        shopVO.setAppKey("124923"); // 授权key
-//        shopVO.setAppSecret("BtPwqWoyErRwsaDkU3tasJXRds424XKR");
-        LazopClient client = new LazopClient("https://auth.lazada.com/rest", "124923", "BtPwqWoyErRwsaDkU3tasJXRds424XKR");
+//        shopVO.setAppKey("111111"); // 授权key
+//        shopVO.setAppSecret("xxxxxx");
+        LazopClient client = new LazopClient("https://auth.lazada.com/rest", "111111", "xxxxxx");
         LazopRequest request = new LazopRequest("/auth/token/create");
-        request.addApiParameter("code", "0_124923_8nOEREcpvSqdPz65na9HgvzR65924");
+        request.addApiParameter("code", "0_111111_8nOEREcpvSqdPz65na9HgvzR65924");
         LazopResponse response = client.execute(request);
         System.out.println(response.getBody());
     }

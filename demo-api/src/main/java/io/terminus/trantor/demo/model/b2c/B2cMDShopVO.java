@@ -32,10 +32,10 @@ public class B2cMDShopVO extends MDShopVO{
     private String countryCode;
     // todo MDShopVo里面存在了 appKey
 //    @TModelField(name = "appKey")
-//    private String appKey;// = "124923";
+//    private String appKey;// = "111111";
 //
 //    @TModelField(name = "appSecret")
-//    private String appSecret;// = "BtPwqWoyErRwsaDkU3tasJXRds424XKR";
+//    private String appSecret;// = "xxxxxx";
 
 }
 
