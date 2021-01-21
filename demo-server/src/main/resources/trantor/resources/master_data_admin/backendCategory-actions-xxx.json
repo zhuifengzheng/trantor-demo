@@ -1,0 +1,22 @@
+//[
+//  {
+//    "key": "BackendCategory_toExtraDetail",
+//    "forModel": "terminus_trantor_demo_BackendCategory",
+//    "extra": {
+//      "dataSource": "DataStore",
+////      target:模块名(forModel)+key
+//      "target": "terminus_trantor_demo_BackendCategory_BackendCategory_extraInfo",
+//      "openViewType": "Columns"
+//    }
+//  },
+//  {
+//    "key": "BackendCategory_toCreateChild",
+//    "forModel": "terminus_trantor_demo_BackendCategory",
+//    "extra": {
+//      "dataSource": "Static",
+//      "record": "parent: this",
+//      "target": "terminus_trantor_demo_BackendCategory_BackendCategory_createChild",
+//      "openViewType": "Dialog"
+//    }
+//  }
+//]

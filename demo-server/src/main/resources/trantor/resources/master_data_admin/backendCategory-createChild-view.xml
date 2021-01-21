@@ -1,0 +1,11 @@
+<!--<View title="新建后台类目">-->
+<!--    <Form model="terminus_trantor_demo_BackendCategory">-->
+<!--        <Fields>-->
+<!--            <Field name="parent" :readonly="true"/>-->
+<!--            <Field name="name"/>-->
+<!--        </Fields>-->
+<!--        <Actions>-->
+<!--            <Action type="Submit" action="terminus_trantor_demo_BackendCategory_BackendCategoryAction::save" after="GoBack" layout="Footer" />-->
+<!--        </Actions>-->
+<!--    </Form>-->
+<!--</View>-->

@@ -1,0 +1,8 @@
+[
+  {
+    "originalKey": "master_data_admin_b2c_shop_list",
+    "name": "b2c店铺列表",
+    "routingType": "Action",
+    "routeKey": "master_data_admin_B2cMDShopVO_b2c_mDShop-merchant-list"
+  }
+]

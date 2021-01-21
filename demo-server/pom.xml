@@ -14,11 +14,6 @@
     <dependencies>
         <dependency>
             <groupId>io.terminus.trantor</groupId>
-            <artifactId>demo-api</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>io.terminus.trantor</groupId>
             <artifactId>framework</artifactId>
             <exclusions>
                 <!-- 这里理论上不应该显式 exelude，trantor 需要优化 -->
@@ -28,6 +23,12 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <dependency>
+            <groupId>io.terminus.trantor</groupId>
+            <artifactId>demo-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -36,11 +37,11 @@
             <plugin>
                 <groupId>io.terminus.trantor</groupId>
                 <artifactId>trantor-metadata-maven-plugin</artifactId>
-                <version>0.13.0-SNAPSHOT</version>
+                <version>0.14.1-SNAPSHOT</version>
                 <configuration>
                     <!-- 这里请替换为你自己的包名 & metastore 地址 -->
-                    <moduleKey>terminus_trantor_demo</moduleKey>
-                    <repositoryUrl>http://127.0.0.1:8082/terminus/trantor_demo</repositoryUrl>
+                    <moduleKey>master_data_admin</moduleKey>
+                    <repositoryUrl>http://127.0.0.1:8082/terminus/master_demo</repositoryUrl>
                 </configuration>
                 <executions>
                     <execution>

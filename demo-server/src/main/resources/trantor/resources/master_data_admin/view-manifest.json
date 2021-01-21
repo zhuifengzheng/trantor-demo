@@ -1,0 +1,59 @@
+[
+  {
+    "forModel": "master_data_admin_MDShopVO",
+    "isDefault": false,
+    "key": "mDShop_list",
+    "name": "店铺列表",
+    "template": "mdshop-list-view.xml",
+    "type": "List"
+  },
+  {
+    "forModel": "master_data_admin_MDShopVO",
+    "isDefault": false,
+    "key": "mDShop_merchant_list",
+    "name": "商家端店铺列表",
+    "template": "mdshop-merchant-list-view.xml",
+    "type": "List"
+  },
+  {
+    "forModel": "master_data_admin_B2cMDShopVO",
+    "isDefault": false,
+    "key": "b2c_mDShop_merchant_list",
+    "name": "b2c商家端店铺列表",
+    "template": "b2c-mdshop-merchant-list-view.xml",
+    "type": "List"
+  },
+  {
+    "forModel": "master_data_admin_MDShopVO",
+    "isDefault": false,
+    "key": "mDShop_detail",
+    "name": "店铺详情",
+    "template": "mdshop-detail-view.xml",
+    "type": "Detail"
+  },
+  {
+    "forModel": "master_data_admin_B2cMDShopVO",
+    "isDefault": false,
+    "key": "mDShop_grant",
+    "name": "店铺授权",
+    "template": "mdshop-grant-view.xml",
+    "controller": "controllers/b2c_shop_common.ts",
+    "type": "Detail"
+  },
+  {
+    "forModel": "master_data_admin_MDShopVO",
+    "isDefault": false,
+    "key": "mDShop_create",
+    "name": "店铺创建",
+    "template": "mdshop-create-view.xml",
+    "type": "Form"
+  },
+  {
+    "forModel": "master_data_admin_MDShopVO",
+    "isDefault": false,
+    "key": "mDShop_edit",
+    "name": "店铺编辑",
+    "template": "mdshop-edit-view.xml",
+    "type": "Form"
+  }
+]

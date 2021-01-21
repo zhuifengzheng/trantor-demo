@@ -1,0 +1,18 @@
+<!--<View title="后台类目">-->
+<!--    <CascadeList :columnTitles="['A','B','C']" key="category"-->
+<!--                 model="terminus_trantor_demo_BackendCategory"-->
+<!--                 depthLimit="4" parentField="parent" hasChildrenField="hasChildren"-->
+<!--                 onSelect="terminus_trantor_demo_BackendCategory_BackendCategory_toExtraDetail"-->
+<!--                 onAdd="terminus_trantor_demo_BackendCategory_BackendCategory_toCreateChild">-->
+<!--        <RecordActions>-->
+<!--&lt;!&ndash;            <Action type="Add" openViewType="Dialog" action="terminus_trantor_demo_BackendCategory_BackendCategory_toCreateChild" />&ndash;&gt;-->
+<!--            &lt;!&ndash;BackendCategory_toExtraDetail:先找到backendCategory-actions.json下的    "key": "BackendCategory_toExtraDetail"-->
+<!--            然后根据      "target": "terminus_trantor_demo_BackendCategory_BackendCategory_extraInfo" 找到view-manifest.json-->
+<!--            下key为BackendCategory_extraInfo的模块，然后跳转到对应到页面视图&ndash;&gt;-->
+<!--&lt;!&ndash;            <Action type="Select" openViewType="Columns" action="terminus_trantor_demo_BackendCategory_BackendCategory_toExtraDetail" />&ndash;&gt;-->
+<!--            <Action label="编辑" action="terminus_trantor_demo_BackendCategory_toEdit" />-->
+<!--            <Action label="详情" action="terminus_trantor_demo_BackendCategory_toDetail" />-->
+<!--            <Action label="删除" action="terminus_trantor_demo_BackendCategory_delete" after="Refresh" />-->
+<!--        </RecordActions>-->
+<!--    </CascadeList>-->
+<!--</View>-->

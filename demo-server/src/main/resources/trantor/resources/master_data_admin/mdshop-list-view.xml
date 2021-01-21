@@ -1,0 +1,36 @@
+<View title="店铺列表">
+    <Table key="table" model="master_data_admin_MDShopVO" :fuzzySearchable="false">
+        <Search>
+            <Fields>
+                <Field name="code"/>
+                <Field name="name"/>
+            </Fields>
+        </Search>
+        <RecordActions label="操作">
+            <Action label="详情" action="master_data_admin_MDShopVO_toDetail"/>
+            <Action label="编辑" action="master_data_admin_MDShopVO_mDShop-edit"/>
+<!--            <Action label="停用" action="master_data_admin_MDShopVO_MDShopAction::disable"-->
+<!--                    :show="this.record.status == 'ENABLED'"  :env="{status:'DISABLED'}" after="Refresh"/>-->
+<!--            <Action label="启用" action="master_data_admin_MDShopVO_MDShopAction::enable"-->
+<!--                    :show="this.record.status == 'DISABLED'"  :env="{status:'ENABLED'}" after="Refresh"/>-->
+        </RecordActions>
+        <Fields>
+            <Field name="code"/>
+            <Field name="name"/>
+            <Field name="logo"/>
+            <Field name="status"/>
+            <Field name="address"/>
+            <Field name="contactName"/>
+            <Field name="contactPhone"/>
+            <Field name="relegationEnterprise"/>
+            <Field name="manageEnterprise"/>
+            <Field name="channel"/>
+            <Field name="isSelfMention"/>
+            <Field name="myIsOnShelfAudit"/>
+            <Field name="createdAt"/>
+        </Fields>
+        <Actions>
+            <Action type="Create" action="master_data_admin_MDShopVO_mDShop-create"/>
+        </Actions>
+    </Table>
+</View>

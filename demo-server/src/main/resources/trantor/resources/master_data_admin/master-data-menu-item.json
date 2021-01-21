@@ -1,0 +1,15 @@
+[
+
+  {
+    "originalKey": "master_data_admin_shop_view",
+    "name": "店铺查看",
+    "routingType": "Action",
+    "routeKey": "master_data_admin_MDShopVO_mDShop-list"
+  },
+  {
+    "originalKey": "master_data_admin_shop_list",
+    "name": "店铺列表",
+    "routingType": "Action",
+    "routeKey": "master_data_admin_MDShopVO_mDShop-merchant-list"
+  }
+]

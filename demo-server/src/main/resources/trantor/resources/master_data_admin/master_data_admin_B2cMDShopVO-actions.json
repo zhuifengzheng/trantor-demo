@@ -1,0 +1,26 @@
+[
+  {
+    "extra": {
+      "dataSource": "Action",
+      "openViewType": "Dialog",
+      "actionKey": "master_data_admin_B2cMDShopVO_B2cMDShopSingleDataAction",
+      "target": "master_data_admin_B2cMDShopVO_mDShop_grant"
+    },
+    "forModel": "master_data_admin_B2cMDShopVO",
+    "key": "toGrant",
+    "name": "店铺授权",
+    "type": "View"
+  },
+  {
+    "extra": {
+      "dataSource": "Action",
+      "openViewType": "Self",
+      "actionKey": "master_data_admin_B2cMDShopVO_B2cMDMerchantShopMultiAction",
+      "target": "master_data_admin_B2cMDShopVO_b2c_mDShop_merchant_list"
+    },
+    "forModel": "master_data_admin_B2cMDShopVO",
+    "key": "b2c_mDShop-merchant-list",
+    "name": "b2c商家端店铺列表",
+    "type": "View"
+  }
+]

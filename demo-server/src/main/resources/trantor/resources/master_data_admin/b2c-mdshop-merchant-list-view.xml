@@ -1,0 +1,39 @@
+<View title="b2c店铺列表">
+    <Table key="table" model="master_data_admin_B2cMDShopVO" :fuzzySearchable="false">
+        <Search>
+            <Fields>
+                <Field name="code"/>
+                <Field name="name"/>
+            </Fields>
+        </Search>
+        <RecordActions label="操作">
+            <Action label="详情" action="master_data_admin_B2cMDShopVO_toDetail"/>
+            <Action label="编辑" action="master_data_admin_B2cMDShopVO_mDShop-edit"/>
+            <Action label="店铺授权" action="master_data_admin_B2cMDShopVO_toGrant"
+                    openViewType="Dialog" :show="this.record.grantAuthorization == 1" after="Refresh"/>
+<!--            <Action label="同步设置" action="master_data_admin_B2cMDShopVO_B2cMDShopAction"-->
+<!--                    openViewType="Dialog"  after="Refresh"/>-->
+            <Action label="店铺授权xxx" action="master_data_admin_B2cMDShopVO_toGrant"
+                    openViewType="Dialog" after="Refresh"/>
+        </RecordActions>
+        <Fields>
+            <Field name="code"/>
+            <Field name="name"/>
+            <Field name="logo"/>
+            <Field name="status"/>
+            <Field name="address"/>
+            <Field name="contactName"/>
+            <Field name="contactPhone"/>
+            <Field name="relegationEnterprise"/>
+            <Field name="manageEnterprise"/>
+            <Field name="channel"/>
+            <Field name="createdAt"/>
+            <Field name="channel.type" label="渠道类型"/>
+            <Field name="grantAuthorization" :initValue="this.record.grantAuthorization"/>
+        </Fields>
+        <Actions>
+<!--            创建店铺不变，但是店铺选择地址时，新增国外地址-->
+            <Action type="Create" action="master_data_admin_MDShopVO_mDShop-create"/>
+        </Actions>
+    </Table>
+</View>

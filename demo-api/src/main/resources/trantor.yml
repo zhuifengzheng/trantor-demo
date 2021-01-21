@@ -1,9 +1,10 @@
 product:
-  key: trantor_demo
-  version: 1.0.0-SNAPSHOT
+  key: master_demo
+  version: 2.0.0-SNAPSHOT
 module:
-  key: terminus_trantor_demo
+  key: master_data_admin
   name: Terminus trantor demo
   packageName: io.terminus.trantor.demo
-  version: 1.0.0-SNAPSHOT
-  description: 演示demo
+  version: 2.0.0-SNAPSHOT
+  description: master-data-demo-主数据
+

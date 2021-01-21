@@ -1,0 +1,76 @@
+[
+  {
+    "extra": {
+      "dataSource": "Action",
+      "openViewType": "Self",
+      "actionKey": "master_data_admin_MDShopVO_MDMerchantShopMultiAction",
+      "target": "master_data_admin_MDShopVO_mDShop_merchant_list"
+    },
+    "forModel": "master_data_admin_MDShopVO",
+    "key": "mDShop-merchant-list",
+    "name": "商家端店铺列表",
+    "type": "View"
+  },
+
+  {
+    "extra": {
+      "dataSource": "Action",
+      "openViewType": "Self",
+      "actionKey": "master_data_admin_MDShopVO_MDShopMultiAction",
+      "target": "master_data_admin_MDShopVO_mDShop_list"
+    },
+    "forModel": "master_data_admin_MDShopVO",
+    "key": "mDShop-list",
+    "name": "店铺列表",
+    "type": "View"
+  },
+  {
+    "extra": {
+      "dataSource": "Static",
+      "openViewType": "Self",
+      "target": "master_data_admin_MDShopVO_mDShop_create"
+    },
+    "forModel": "master_data_admin_MDShopVO",
+    "key": "mDShop-create",
+    "name": "店铺创建",
+    "type": "View"
+  },
+  {
+    "extra": {
+      "dataSource": "Action",
+      "openViewType": "Self",
+      "actionKey": "master_data_admin_MDShopVO_MDShopSingleDataAction",
+      "target": "master_data_admin_MDShopVO_mDShop_edit"
+    },
+    "forModel": "master_data_admin_MDShopVO",
+    "key": "mDShop-edit",
+    "name": "店铺修改",
+    "type": "View"
+  },
+  {
+    "extra": {
+      "dataSource": "Action",
+      "openViewType": "Dialog",
+      "actionKey": "master_data_admin_MDShopVO_MDShopSingleDataAction",
+      "target": "master_data_admin_MDShopVO_mDShop_detail"
+    },
+    "forModel": "master_data_admin_MDShopVO",
+    "key": "toDetail",
+    "name": "店铺详情",
+    "type": "View"
+  }
+//,
+//
+//  {
+//    "extra": {
+//      "dataSource": "Action",
+//      "openViewType": "Dialog",
+//      "actionKey": "master_data_admin_B2cMDShopVO_B2cMDShopSingleDataAction",
+//      "target": "master_data_admin_B2cMDShopVO_mDShop_grant"
+//    },
+//    "forModel": "master_data_admin_B2cMDShopVO",
+//    "key": "toGrant",
+//    "name": "店铺授权",
+//    "type": "View"
+//  }
+]

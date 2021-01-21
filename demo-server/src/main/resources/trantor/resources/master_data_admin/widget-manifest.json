@@ -1,0 +1,7 @@
+{
+  "CascadeModelSelectWithDataSourceAction": {
+    "show": "CustomComponents/CascadeModelSelectWithDataSourceAction.js",
+    "desc": "扩展自定义数据源的级联选择控件",
+    "input": "CustomComponents/CascadeModelSelectWithDataSourceAction.js"
+  }
+}

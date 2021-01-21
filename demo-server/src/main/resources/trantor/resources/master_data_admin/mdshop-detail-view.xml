@@ -1,0 +1,41 @@
+<View title="店铺">
+    <Detail key="master_data_admin_MDShopVO" model="master_data_admin_MDShopVO">
+        <Fields>
+            <GroupField title="基础信息">
+                <Field name="name"/>
+                <Field name="shopType"/>
+                <Field name="status"/>
+                <Field name="isSelfMention"/>
+                <Field name="myIsOnShelfAudit"/>
+                <Field name="logo" label="店铺图标"/>
+                <Field name="desc" label="简介"/>
+                <Field name="outCode" :show="_.get(this.data, 'channel.manageType')=='EXTERNAL'"/>
+            </GroupField>
+
+            <GroupField title="地址信息">
+                <Field name="longitude"/>
+                <Field name="latitude"/>
+                <Field name="contactName"/>
+                <Field name="contactPhone"/>
+                <Field name="address"/>
+            </GroupField>
+
+            <GroupField title="企业信息">
+                <Field name="relegationEnterprise">
+                </Field>
+                <Field name="manageEnterprise">
+                </Field>
+            </GroupField>
+
+            <GroupField title="认证信息" :show="_.get(this.data, 'channel.manageType')=='EXTERNAL'">
+                <Field name="accessToken"/>
+                <Field name="appKey"/>
+                <Field name="appSecret"/>
+                <Field name="gateWay"/>
+            </GroupField>
+            <GroupField title="渠道信息">
+                <Field name="channel"/>
+            </GroupField>
+        </Fields>
+    </Detail>
+</View>

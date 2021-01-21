@@ -1,0 +1,49 @@
+<View title="店铺授权">
+    <Steps :current="this.data.grantAuthorization">
+        <Step :title="i18n.get('授权').d('授权')"/>
+        <Step :title="i18n.get('检测授权').d('检测授权')"/>
+    </Steps>
+
+    <Form title="店铺授权-" model="master_data_admin_B2cMDShopVO">
+
+<!--    <Detail key="master_data_admin_B2cMDShopVO" model="master_data_admin_B2cMDShopVO">-->
+        <Fields>
+
+            <GroupField title="基础信息">
+                <Field name="name" readonly="true"/>
+                <Field name="channel.name" readonly="true" label="渠道名称"/>
+                <Field name="grantCode" label="授权码"/>
+                <Field name="countryCode" label="国家" :initValue="sg"/>
+            </GroupField>
+
+        </Fields>
+<!--    </Detail>-->
+<!--    <Actions>-->
+<!--        &lt;!&ndash;            创建店铺不变，但是店铺选择地址时，新增国外地址&ndash;&gt;-->
+<!--        <Action type="Create" action="master_data_admin_MDShopVO_mDShop-create"/>-->
+<!--    </Actions>-->
+
+<!--    <Actions>-->
+<!--        <Action type="Submit" after="GoBack" layout="Footer"-->
+<!--                action="reverse_admin_center_ReverseOrderVO_ReverseOrderWriteAction::delivery"-->
+<!--                :env="{reverseOrderId:env.reverseOrderId, reverseType:env.reverseType}"/>-->
+<!--    </Actions>-->
+
+    <Actions>
+<!--        <Alert :message="'appKey：' + this.record.orderStatus"/>-->
+
+<!--        <Action label="Button" renderType="Button" layout="Footer"/>-->
+<!--        <Action label="授权码self" after="Refresh"  action="master_data_admin_B2cMDShopVO_B2cMDShopSingleDataAction::grant" renderType="Submit" layout="Footer"/>-->
+<!--        <Action label="授权码Dialog" after="Refresh" openViewType="Dialog" action="master_data_admin_B2cMDShopVO_B2cMDShopSingleDataAction::grant" renderType="Submit" layout="Footer"/>-->
+<!--        <Action label="授权码Columns" after="Refresh" openViewType="Columns" action="master_data_admin_B2cMDShopVO_B2cMDShopSingleDataAction::grant" renderType="Submit" layout="Footer"/>-->
+
+<!--        <Action label="授权码Drawer" after="Refresh" openViewType="Drawer" action="master_data_admin_B2cMDShopVO_B2cMDShopSingleDataAction::grant" renderType="Submit" layout="Footer"/>-->
+
+<!--        <Action label="授权码blank" after="Refresh" openViewType="Blank" action="master_data_admin_B2cMDShopVO_B2cMDShopSingleDataAction::grant" renderType="Submit" layout="Footer"/>-->
+<!--        <Action label="save" after="GoBack" renderType="Link" openViewType="Blank" layout="Footer" href="http://www.baidu.com"/>-->
+<!--        可以直接通过当前输入的appKey传参数到controller对应到.ts文件中直接跳转，或者是先到自己的action然后做逻辑处理返回跳转的url-->
+<!--        <Action renderType="Submit" openViewType="Blank" label="save" after="GoBack"  layout="Footer" @action="({context}) => delayTriggerServer('master_data_admin_B2cMDShopVO',context.grantCode)"/>-->
+        <Action renderType="Submit" openViewType="Blank" label="save" after="GoBack"  layout="Footer" @action="grantAuthorizationAction"/>
+    </Actions>
+    </Form>
+</View>

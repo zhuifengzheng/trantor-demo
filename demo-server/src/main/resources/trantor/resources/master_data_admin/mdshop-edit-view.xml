@@ -1,0 +1,70 @@
+<View title="编辑店铺">
+    <Form key="master_data_admin_MDShopVO" model="master_data_admin_MDShopVO">
+        <Fields>
+            <GroupField title="基础信息">
+                <Field name="name">
+                    <RenderType>
+                        <Input :maxLength="20"></Input>
+                    </RenderType>
+                </Field>
+                <Field name="shopType"/>
+                <Field name="status"/>
+                <Field name="isSelfMention"/>
+                <Field name="myIsOnShelfAudit"/>
+                <Field name="logo" label="店铺图标"/>
+                <Field name="desc" label="简介">
+                    <RenderType>
+                        <Input :maxLength="50"></Input>
+                    </RenderType>
+                </Field>
+                <Field name="outCode" :readonly="true" :show="_.get(this.data, 'channel.manageType')=='external'"/>
+            </GroupField>
+
+            <GroupField title="地址信息">
+                <Field name="longitude"/>
+                <Field name="latitude"/>
+                <Field name="contactName"/>
+                <Field name="contactPhone"/>
+                <Field name="address">
+                    <Validations>
+                        <Validation required message="地址不能为空"/>
+                    </Validations>
+                </Field>
+            </GroupField>
+
+            <GroupField title="企业信息">
+                <Field name="relegationEnterprise">
+                    <RenderType>
+                        <ModelSelect dataSourceAction="master_data_admin_MDEnterpriseVO_MDEnterpriseMultiAction" :dataSourceContext="{status:'ENABLE'}"
+                                     :createAction="false"/>
+                    </RenderType>
+                </Field>
+                <Field name="manageEnterprise">
+                    <RenderType>
+                        <ModelSelect dataSourceAction="master_data_admin_MDEnterpriseVO_MDEnterpriseMultiAction" :dataSourceContext="{status:'ENABLE'}"
+                                     :createAction="false"/>
+                    </RenderType>
+                </Field>
+            </GroupField>
+
+            <GroupField title="认证信息" :show="_.get(this.data, 'channel.manageType')=='external'">
+                <Field name="accessToken" :readonly="true" />
+                <Field name="appKey" :readonly="true" />
+                <Field name="appSecret" :readonly="true" />
+                <Field name="gateWay" :readonly="true"/>
+            </GroupField>
+
+            <Field name="channel" :readonly="true">
+                <RenderType>
+                    <ModelSelect dataSourceAction="master_data_admin_MDChannelVO_MDChannelMultiAction"
+                                 :createAction="false"/>
+                </RenderType>
+            </Field>
+        </Fields>
+
+        <Actions>
+            <Action type="Submit" action="master_data_admin_MDShopVO_MDShopAction::update" after="GoBack"
+                    layout="Footer"/>
+        </Actions>
+    </Form>
+</View>
