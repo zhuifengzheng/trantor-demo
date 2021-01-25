@@ -10,10 +10,15 @@
         <Fields>
 
             <GroupField title="基础信息">
-                <Field name="name" readonly="true"/>
+                <Field name="id" :submit="true" :show="false"/>
                 <Field name="channel.name" readonly="true" label="渠道名称"/>
-                <Field name="grantCode" label="授权码"/>
-                <Field name="countryCode" label="国家" :initValue="sg"/>
+                <Field name="name" readonly="true"/>
+                <Field name="grantCode" label="授权码">
+                    <Validations>
+                        <Validation required message="授权码不能为空"/>
+                    </Validations>
+                </Field>
+                <Field name="countryCode" label="国家" initValue="sg"/>
             </GroupField>
 
         </Fields>
@@ -43,7 +48,9 @@
 <!--        <Action label="save" after="GoBack" renderType="Link" openViewType="Blank" layout="Footer" href="http://www.baidu.com"/>-->
 <!--        可以直接通过当前输入的appKey传参数到controller对应到.ts文件中直接跳转，或者是先到自己的action然后做逻辑处理返回跳转的url-->
 <!--        <Action renderType="Submit" openViewType="Blank" label="save" after="GoBack"  layout="Footer" @action="({context}) => delayTriggerServer('master_data_admin_B2cMDShopVO',context.grantCode)"/>-->
-        <Action renderType="Submit" openViewType="Blank" label="save" after="GoBack"  layout="Footer" @action="grantAuthorizationAction"/>
+        <Action label="取消" type="Cancel" action="" after="GoBack" layout="Footer"/>
+        <Action renderType="Normal" openViewType="Blank" label="获取授权码" after="Refresh"  layout="Footer" @action="grantAuthorizationAction"/>
+        <Action renderType="Submit" openViewType="Blank" label="授权" after="GoBack"  layout="Footer" action="master_data_admin_B2cMDShopVO_B2cMDShopSingleDataAction::grantAuthorizationSave"/>
     </Actions>
     </Form>
 </View>

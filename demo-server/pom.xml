@@ -12,6 +12,11 @@
     <artifactId>demo-server</artifactId>
 
     <dependencies>
+<!--        <dependency>-->
+<!--            <groupId>com.lazada.lazop.api</groupId>-->
+<!--            <artifactId>lazada-lazop-api</artifactId>-->
+<!--            <version>1.2.0</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>io.terminus.trantor</groupId>
             <artifactId>framework</artifactId>

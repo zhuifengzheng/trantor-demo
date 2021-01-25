@@ -1,8 +1,5 @@
 package io.terminus.trantor.demo.address;
 
-import com.lazada.lazop.api.LazopClient;
-import com.lazada.lazop.api.LazopRequest;
-import com.lazada.lazop.api.LazopResponse;
 import io.terminus.api.utils.JsonUtil;
 import okhttp3.Call;
 import okhttp3.OkHttpClient;
@@ -42,22 +39,21 @@ public class GetPHAddress {
         String sqlStaticCity = "INSERT INTO `base__district`(`initial`, `level`, `cityCode`, `initials`, `center`, `suffix`, `createdAt`, `deletedAt`, `pinyin`, `mergerName`, `isDeleted`, `simpleName`, `name`, `id`, `order`, `updatedAt`, `DistrictParent`, `CreatedBy`, `UpdatedBy`) VALUES ('%s', 'CITY', NULL, '%s', NULL, '市', now(), 0, NULL, '%s', 0, NULL, '%s', '%s', NULL, now(), '%s', NULL, NULL);";
         String sqlStaticDistrict = "INSERT INTO `base__district`(`initial`, `level`, `cityCode`, `initials`, `center`, `suffix`, `createdAt`, `deletedAt`, `pinyin`, `mergerName`, `isDeleted`, `simpleName`, `name`, `id`, `order`, `updatedAt`, `DistrictParent`, `CreatedBy`, `UpdatedBy`) VALUES ('%s', 'DISTRICT', NULL, '%s', NULL, '区', now(), 0, NULL, '%s', 0, NULL, '%s', '%s', NULL, now(), '%s', NULL, NULL);";
 
-        outResult(countryCode, tempCountry,sqlStaticProvince,sqlStaticCity,sqlStaticDistrict,false);
+        outResult(countryCode, tempCountry, sqlStaticProvince, sqlStaticCity, sqlStaticDistrict, false);
     }
 
     /**
-     *
      * @param countryCode
      * @param tempCountry
      * @param sqlStaticProvince
      * @param sqlStaticCity
      * @param sqlStaticDistrict
-     * @param hasBarangay 是否存在县
+     * @param hasBarangay       是否存在县
      * @throws Exception
      */
-    private static void outResult(String countryCode, String tempCountry, String sqlStaticProvince,String sqlStaticCity,String sqlStaticDistrict, boolean hasBarangay) throws Exception {
+    private static void outResult(String countryCode, String tempCountry, String sqlStaticProvince, String sqlStaticCity, String sqlStaticDistrict, boolean hasBarangay) throws Exception {
         String path = "/Users/zhuifengzheng/IdeaProjects/trantor-demo/demo-server/src/main/java/io/terminus/trantor/demo/address";
-        File file = new File(path + "/" + countryCode+".sql");
+        File file = new File(path + "/" + countryCode + ".sql");
 
         AddressInfo provinceInfo = country(countryCode, tempCountry);
         List<Module> provinceModules = provinceInfo.getModule();
@@ -66,13 +62,13 @@ public class GetPHAddress {
 
         for (Module province : provinceModules) {
             // 省sql
-            String formatProvince = String.format(sqlStaticProvince,countryCode,countryCode ,province.getName().replace("'","\\'"),province.getName().replace("'","\\'"),province.getId(),province.getParentId());
-            bw.write(formatProvince+"\n");
-            System.out.println("省："+formatProvince);
+            String formatProvince = String.format(sqlStaticProvince, countryCode, countryCode, province.getName().replace("'", "\\'"), province.getName().replace("'", "\\'"), province.getId(), province.getParentId());
+            bw.write(formatProvince + "\n");
+            System.out.println("省：" + formatProvince);
 
             AddressInfo cityInfo = shixian(countryCode, province.getId(), tempCountry);
             List<Module> cityModules = cityInfo.getModule();
-            if (CollectionUtils.isEmpty(cityModules)){
+            if (CollectionUtils.isEmpty(cityModules)) {
                 continue;
             }
             for (Module city : cityModules) {
@@ -89,12 +85,12 @@ public class GetPHAddress {
 //                        bw.write("省: " + province.getName() + " 市: " + city.getName() + " 县: " + barangay.getName()+ "\n");
                         }
                     }
-                }else{
+                } else {
                     // 只有两级情况下开启
                     // 市sql
-                    String cityTemp = province.getName()+","+city.getName();
-                    String formatCity = String.format(sqlStaticCity,countryCode,countryCode ,cityTemp.replace("'","\\'"),city.getName().replace("'","\\'"),city.getId(),city.getParentId());
-                    bw.write(formatCity+"\n");
+                    String cityTemp = province.getName() + "," + city.getName();
+                    String formatCity = String.format(sqlStaticCity, countryCode, countryCode, cityTemp.replace("'", "\\'"), city.getName().replace("'", "\\'"), city.getId(), city.getParentId());
+                    bw.write(formatCity + "\n");
 //                System.out.println(formatCity);
 //                bw.write("省: " + province.getName() + " 市: " + city.getName()+ "\n");
 
@@ -108,6 +104,7 @@ public class GetPHAddress {
 
     /**
      * 获取国家下面省份信息
+     *
      * @param countryCode
      * @param url
      * @return
@@ -122,6 +119,7 @@ public class GetPHAddress {
 
     /**
      * 地址请求
+     *
      * @param url
      * @return
      */
@@ -144,6 +142,7 @@ public class GetPHAddress {
 
     /**
      * 获取省份下城市和县信息
+     *
      * @param countryCode
      * @param addressId
      * @param url
@@ -158,7 +157,7 @@ public class GetPHAddress {
         return result;
     }
 
-    public static void testOutJson(){
+    public static void testOutJson() {
         //国家：https://member.lazada.com.ph/locationtree/api/getSubAddressList?countryCode=PH&addressId=R52299&page=addressEdit
         //城市：https://member.lazada.com.ph/locationtree/api/getSubAddressList?countryCode=PH&addressId=R80157317&page=addressEdit
         AddressInfo addressInfo = new AddressInfo();

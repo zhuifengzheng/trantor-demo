@@ -9,6 +9,8 @@ import io.terminus.trantor.custom.api.annotation.ExtendTModel;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
+import javax.validation.constraints.NotNull;
+
 /**
  * @Author by yuanpeng
  * @Date 2021/1/19
@@ -20,15 +22,20 @@ import lombok.EqualsAndHashCode;
 public class B2cMDShopVO extends MDShopVO{
 
     private static final long serialVersionUID = -3144459219269588136L;
+//    @TModelField(name = "店铺id")
+//    private Long shopId;
+
     @TModelField(name = "是否授权")
 //    @DictionaryMeta(clazz = GrantAuthorizationStatusDict.class)
     private Integer grantAuthorization;
 
     @TModelField(name = "授权码")
+    @NotNull(message = "授权码不能为空")
     private String grantCode;
 
     @TModelField(name = "国家")
     @DictionaryMeta(clazz = CountryStatusDict.class)
+    @NotNull(message = "国家不能为空")
     private String countryCode;
     // todo MDShopVo里面存在了 appKey
 //    @TModelField(name = "appKey")
