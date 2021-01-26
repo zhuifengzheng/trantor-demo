@@ -12,7 +12,7 @@ export default class extends Controller {
 
     grantAuthorizationAction = ({context}) => {
         // 触发 ServerAction
-        utils.triggerServerAction('master_data_admin_B2cMDShopVO_B2cMDShopSingleDataAction::grant', {
+        utils.triggerServerAction('master_data_admin_B2cMDShopVO_B2cMDShopAction::grant', {
             record: context,
             // modelKey: 'master_data_admin_B2cMDShopVO',
             actionLabel: '授权' // 用于log记录的名称，在xml中则是按钮文字

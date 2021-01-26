@@ -11,8 +11,8 @@ import io.terminus.trantor.api.annotation.typemeta.Label;
 @TDict(name = "店铺授权")
 public class GrantAuthorizationStatusDict {
     @Label("已经授权")
-    public static final Integer GRANT = 1;
+    public static final int GRANT = 1;
 
     @Label("未授权")
-    public static final Integer NO_GRANT = 0;
+    public static final int NO_GRANT = 0;
 }

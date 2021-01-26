@@ -56,82 +56,82 @@ import javax.servlet.http.HttpServletResponse;
 public class B2cMDShopSingleDataAction implements SingleDataAction<B2cMDShopVO> {
     private final MDShopReadFacade readFacade;
 
-    @TAction(modelClass = B2cMDShopVO.class)
-    public String grant(B2cMDShopVO mdShopVO) {
-        try {
-            String grantUrl = "https://auth.lazada.com/oauth/authorize?response_type=code&force_auth=true&redirect_uri=https://work.terminus.io&client_id=124923&country=" + mdShopVO.getCountryCode();// + 111111;
-            log.info("认证授权地址：" + grantUrl);
-            return grantUrl;
-        } catch (Exception e) {
-            log.error("生成认证地址失败 {}", Throwables.getStackTraceAsString(e));
-            throw new RuntimeException(Throwables.getStackTraceAsString(e));
-        }
-    }
-
-    @TAction(modelClass = B2cMDShopVO.class)
-    public void grantAuthorizationSave(@Valid B2cMDShopVO b2cMDShopVO) {
-//        接口地址：https://dalaran-runtime-dev-t.app.terminus.io/lazada/token/create
-//        入参：{
-//            "appKey": "124923",
-//                    "appSecret": "BtPwqWoyErRwsaDkU3tasJXRds424XKR",
-//                    "code": "0_124923_68gh4pzELpX2r0j9nLg6Akwa65427"
+//    @TAction(modelClass = B2cMDShopVO.class)
+//    public String grant(B2cMDShopVO mdShopVO) {
+//        try {
+//            String grantUrl = "https://auth.lazada.com/oauth/authorize?response_type=code&force_auth=true&redirect_uri=https://work.terminus.io&client_id=124923&country=" + mdShopVO.getCountryCode();// + 111111;
+//            log.info("认证授权地址：" + grantUrl);
+//            return grantUrl;
+//        } catch (Exception e) {
+//            log.error("生成认证地址失败 {}", Throwables.getStackTraceAsString(e));
+//            throw new RuntimeException(Throwables.getStackTraceAsString(e));
 //        }
-        String url = "https://dalaran-runtime-dev-t.app.terminus.io/lazada/token/create";
-        Map<String, String> map = new HashMap<>();
-        map.put("appKey", "124923");
-        map.put("appSecret", "BtPwqWoyErRwsaDkU3tasJXRds424XKR");
-        map.put("code", b2cMDShopVO.getGrantCode());//0_124923_Bb3TfpW4v1GOTidDt82Tjfbl67311
-        Response response = postUrl(url, map);
-        if (response == null || (response != null && !response.isSuccessful())) {
-            throw new RuntimeException("请求授权接口错误...");
-        }
-
-        try {
-            String resultJson = response.body().string();
-            log.info("==============resultJson: {}", resultJson);
-
-            ShopAccessTokenInfo result = JsonUtil.getObject(resultJson, new ShopAccessTokenInfo().getClass());
-
-            if (StringUtils.isEmpty(result.getAccess_token())) {
-                log.error("获取accessToken失败，造成原因:{}", result.getMessage());
-                throw new RuntimeException("获取accessToken失败，请检查授权码是否正确");
-            }
-            // todo 这里保存到shop的扩展字段里面   将access_token保存到redis，并通定时【6天】过refresh_token刷新token
-            // todo 更新 grantAuthorization=1
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-
-    }
-
-    private static okhttp3.Response postUrl(String url, Map<String, String> params) {
-        OkHttpClient okHttpClient = new OkHttpClient();
-        MediaType mediaType = MediaType.get("application/json;charset=utf-8");
-        final String content = JSONUtil.toJsonStr(params);
-//        FormBody.Builder formBodyBuilder = new FormBody.Builder();
-
-//        params.entrySet().forEach(m -> {
-//            formBodyBuilder.add(m.getKey(),m.getValue());
-//        });
+//    }
 //
-//        FormBody body = formBodyBuilder.build();
-        RequestBody body = RequestBody.create(mediaType, content);
-        Request request = new Request.Builder()
-                .url(url)
-                .post(body)
-                .build();
-        Call call = okHttpClient.newCall(request);
-        Response response = null;
-        try {
-            response = call.execute();
-//            System.out.println(response.body().string());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return response;
-    }
+//    @TAction(modelClass = B2cMDShopVO.class)
+//    public void grantAuthorizationSave(@Valid B2cMDShopVO b2cMDShopVO) {
+////        接口地址：https://dalaran-runtime-dev-t.app.terminus.io/lazada/token/create
+////        入参：{
+////            "appKey": "124923",
+////                    "appSecret": "BtPwqWoyErRwsaDkU3tasJXRds424XKR",
+////                    "code": "0_124923_68gh4pzELpX2r0j9nLg6Akwa65427"
+////        }
+//        String url = "https://dalaran-runtime-dev-t.app.terminus.io/lazada/token/create";
+//        Map<String, String> map = new HashMap<>();
+//        map.put("appKey", "124923");
+//        map.put("appSecret", "BtPwqWoyErRwsaDkU3tasJXRds424XKR");
+//        map.put("code", b2cMDShopVO.getGrantCode());//0_124923_Bb3TfpW4v1GOTidDt82Tjfbl67311
+//        Response response = postUrl(url, map);
+//        if (response == null || (response != null && !response.isSuccessful())) {
+//            throw new RuntimeException("请求授权接口错误...");
+//        }
+//
+//        try {
+//            String resultJson = response.body().string();
+//            log.info("==============resultJson: {}", resultJson);
+//
+//            ShopAccessTokenInfo result = JsonUtil.getObject(resultJson, new ShopAccessTokenInfo().getClass());
+//
+//            if (StringUtils.isEmpty(result.getAccess_token())) {
+//                log.error("获取accessToken失败，造成原因:{}", result.getMessage());
+//                throw new RuntimeException("获取accessToken失败，请检查授权码是否正确");
+//            }
+//            // todo 这里保存到shop的扩展字段里面   将access_token保存到redis，并通定时【6天】过refresh_token刷新token
+//            // todo 更新 grantAuthorization=1
+//
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//
+//
+//    }
+//
+//    private static okhttp3.Response postUrl(String url, Map<String, String> params) {
+//        OkHttpClient okHttpClient = new OkHttpClient();
+//        MediaType mediaType = MediaType.get("application/json;charset=utf-8");
+//        final String content = JSONUtil.toJsonStr(params);
+////        FormBody.Builder formBodyBuilder = new FormBody.Builder();
+//
+////        params.entrySet().forEach(m -> {
+////            formBodyBuilder.add(m.getKey(),m.getValue());
+////        });
+////
+////        FormBody body = formBodyBuilder.build();
+//        RequestBody body = RequestBody.create(mediaType, content);
+//        Request request = new Request.Builder()
+//                .url(url)
+//                .post(body)
+//                .build();
+//        Call call = okHttpClient.newCall(request);
+//        Response response = null;
+//        try {
+//            response = call.execute();
+////            System.out.println(response.body().string());
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        return response;
+//    }
 
     @Override
     public B2cMDShopVO load(QueryValues queryValues) {
@@ -150,7 +150,7 @@ public class B2cMDShopSingleDataAction implements SingleDataAction<B2cMDShopVO> 
 //
 //        return MDShopConverter.convertFromMDShopFullInfo(getRes.getResult());
         B2cMDShopVO shopVO = new B2cMDShopVO();
-        shopVO.setGrantAuthorization(0);
+        shopVO.setGrantAuthorization(false);
         shopVO.setIsSelfMention(false);
         shopVO.setName("店铺名称");
         shopVO.setStatus("");
@@ -181,8 +181,13 @@ public class B2cMDShopSingleDataAction implements SingleDataAction<B2cMDShopVO> 
         shopVO.set__trantorExtendFields(Maps.newHashMap());
         shopVO.setId(queryValues.getOneValue("id"));
         Object obj = queryValues.getOneValue("id");
-        System.out.println("================queryValues.getOneValue(\"id\")=============="+obj);
+        if (shopVO.getGrantAuthorization()) {
+            shopVO.setGrantProgress(1);
+        }else {
+            shopVO.setGrantProgress(2);
+        }
 
+        System.out.println("================queryValues.getOneValue(\"id\")=============="+obj);
         // todo 添加appkey参数
         return shopVO;
     }

@@ -135,7 +135,7 @@ public class MDShopConverter {
         mdChannelInfo.setType("ONLINE");
         mDShopVO.setChannel(mdChannelInfo);
 
-        mDShopVO.setGrantAuthorization(0);
+        mDShopVO.setGrantAuthorization(false);
         return mDShopVO;
     }
 

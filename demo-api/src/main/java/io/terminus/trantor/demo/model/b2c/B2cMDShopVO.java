@@ -27,9 +27,12 @@ public class B2cMDShopVO extends MDShopVO{
 
     @TModelField(name = "是否授权")
 //    @DictionaryMeta(clazz = GrantAuthorizationStatusDict.class)
-    private Integer grantAuthorization;
+    private Boolean grantAuthorization;
 
-    @TModelField(name = "授权码")
+    @TModelField(name = "当前进度")
+    private Integer grantProgress;
+
+    @TModelField(name = "授权码",nullable = false)
     @NotNull(message = "授权码不能为空")
     private String grantCode;
 

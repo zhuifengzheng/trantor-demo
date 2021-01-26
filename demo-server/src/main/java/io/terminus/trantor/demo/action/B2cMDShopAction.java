@@ -18,6 +18,7 @@ import io.terminus.trantor.demo.model.facade.MDShopReadFacade;
 import io.terminus.trantor.demo.model.facade.response.ShopAccessTokenInfo;
 import io.terminus.trantor.module.base.model.User;
 import io.terminus.trantor.sdk.datasource.SingleDataAction;
+import io.terminus.trantor.sdk.params.Load;
 import io.terminus.trantor.sdk.query.QueryValues;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

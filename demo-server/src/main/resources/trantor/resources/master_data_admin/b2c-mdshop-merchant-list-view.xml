@@ -4,6 +4,10 @@
             <Fields>
                 <Field name="code"/>
                 <Field name="name"/>
+                <Field name="channel.name"/>
+                <Field name="channel.type"/>
+                <Field name="status"/>
+                <Field name="grantAuthorization"/>
             </Fields>
         </Search>
         <RecordActions label="操作">
