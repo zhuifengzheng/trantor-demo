@@ -23,4 +23,31 @@
     "name": "b2c商家端店铺列表",
     "type": "View"
   }
+  ,
+
+  {
+    "extra": {
+      "dataSource": "Action",
+      "openViewType": "Dialog",
+      "actionKey": "master_data_admin_B2cMDShopVO_B2cMDShopSingleDataAction",
+      "target": "master_data_admin_B2cMDShopVO_mDShop_grant_code"
+    },
+    "forModel": "master_data_admin_B2cMDShopVO",
+    "key": "toGrant_code",
+    "name": "获取店铺授权code",
+    "type": "View"
+  },
+
+  {
+    "extra": {
+      "dataSource": "Action",
+      "openViewType": "Dialog",
+      "actionKey": "master_data_admin_B2cMDShopVO_B2cMDShopSingleDataAction",
+      "target": "master_data_admin_B2cMDShopVO_mDShop_synchronize"
+    },
+    "forModel": "master_data_admin_B2cMDShopVO",
+    "key": "toSynchronize",
+    "name": "店铺同步",
+    "type": "View"
+  }
 ]

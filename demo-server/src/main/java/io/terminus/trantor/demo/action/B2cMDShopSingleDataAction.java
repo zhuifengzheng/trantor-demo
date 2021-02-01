@@ -189,6 +189,18 @@ public class B2cMDShopSingleDataAction implements SingleDataAction<B2cMDShopVO> 
 
         System.out.println("================queryValues.getOneValue(\"id\")=============="+obj);
         // todo 添加appkey参数
+
+        HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
+
+        String code = request.getParameter("code");
+        if (null == code){
+            shopVO.setGrantCode("111");
+        }else {
+            shopVO.setGrantCode(code);
+        }
+
+        shopVO.setItemSynchronized(true);
+        shopVO.setOrderSynchronized(false);
         return shopVO;
     }
 }

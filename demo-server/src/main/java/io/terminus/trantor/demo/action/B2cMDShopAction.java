@@ -41,6 +41,12 @@ import java.util.Map;
 public class B2cMDShopAction{
     private final MDShopReadFacade readFacade;
 
+
+    @TAction(modelClass = B2cMDShopVO.class)
+    public void grantSynchronized(B2cMDShopVO mdShopVO) {
+        log.info("===============grantSynchronized===================");
+    }
+
     @TAction(modelClass = B2cMDShopVO.class)
     public String grant(B2cMDShopVO mdShopVO) {
         try {
@@ -54,13 +60,14 @@ public class B2cMDShopAction{
     }
 
     @TAction(modelClass = B2cMDShopVO.class)
-    public void grantAuthorizationSave(@Valid B2cMDShopVO b2cMDShopVO) {
+    public Boolean grantAuthorizationSave(@Valid B2cMDShopVO b2cMDShopVO) {
 //        接口地址：https://dalaran-runtime-dev-t.app.terminus.io/lazada/token/create
 //        入参：{
 //            "appKey": "124923",
 //                    "appSecret": "BtPwqWoyErRwsaDkU3tasJXRds424XKR",
 //                    "code": "0_124923_68gh4pzELpX2r0j9nLg6Akwa65427"
 //        }
+
         String url = "https://dalaran-runtime-dev-t.app.terminus.io/lazada/token/create";
         Map<String, String> map = new HashMap<>();
         map.put("appKey", "124923");
@@ -88,7 +95,10 @@ public class B2cMDShopAction{
             e.printStackTrace();
         }
 
+        // todo 这里通过token调用接口检验，能成功访问返回'成功'，失败返回'授权码错误'；
+        //  或者返回true或者false，然后前台判断，然后报不同的信息框
 
+        return true;
     }
 
     private static Response postUrl(String url, Map<String, String> params) {

@@ -47,5 +47,11 @@ public class B2cMDShopVO extends MDShopVO{
 //    @TModelField(name = "appSecret")
 //    private String appSecret;// = "xxxxxx";
 
+    @TModelField(name = "商品同步")
+    private boolean itemSynchronized;
+
+    @TModelField(name = "订单同步")
+    private boolean orderSynchronized;
+
 }
 

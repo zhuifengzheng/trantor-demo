@@ -1,0 +1,14 @@
+<View title="店铺授权">
+
+    <Form title="店铺授权码" model="master_data_admin_B2cMDShopVO">
+
+        <!--    <Detail key="master_data_admin_B2cMDShopVO" model="master_data_admin_B2cMDShopVO">-->
+        <Fields>
+
+            <GroupField title="基础信息">
+                <Field name="grantCode" label="请复制授权码"/>
+            </GroupField>
+
+        </Fields>
+    </Form>
+</View>

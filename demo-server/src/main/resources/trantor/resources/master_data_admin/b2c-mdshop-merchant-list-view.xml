@@ -15,10 +15,12 @@
             <Action label="编辑" action="master_data_admin_B2cMDShopVO_mDShop-edit"/>
             <Action label="店铺授权" action="master_data_admin_B2cMDShopVO_toGrant"
                     openViewType="Dialog" :show="this.record.grantAuthorization == 1" after="Refresh"/>
-<!--            <Action label="同步设置" action="master_data_admin_B2cMDShopVO_B2cMDShopAction"-->
-<!--                    openViewType="Dialog"  after="Refresh"/>-->
+            <Action label="同步设置" action="master_data_admin_B2cMDShopVO_toSynchronize"
+                    openViewType="Dialog"  after="Refresh"/>
             <Action label="店铺授权xxx" action="master_data_admin_B2cMDShopVO_toGrant"
                     openViewType="Dialog" after="Refresh"/>
+            <Action label="测试跳转" action="master_data_admin_B2cMDShopVO_toGrant_code"
+                    openViewType="Blank" after="Refresh"/>
         </RecordActions>
         <Fields>
             <Field name="code"/>

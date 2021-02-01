@@ -56,4 +56,25 @@
     "template": "mdshop-edit-view.xml",
     "type": "Form"
   }
+
+  ,
+
+  {
+    "forModel": "master_data_admin_B2cMDShopVO",
+    "isDefault": false,
+    "key": "mDShop_grant_code",
+    "name": "获取店铺授权code",
+    "template": "mdshop-grant-code-view.xml",
+    "controller": "controllers/b2c_shop_common.ts",
+    "type": "Detail"
+  },
+
+  {
+    "forModel": "master_data_admin_B2cMDShopVO",
+    "isDefault": false,
+    "key": "mDShop_synchronize",
+    "name": "店铺同步",
+    "template": "mdshop-synchronize-view.xml",
+    "type": "Detail"
+  }
 ]

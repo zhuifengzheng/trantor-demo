@@ -1,0 +1,27 @@
+<View title="同步设置">
+
+    <Form title="渠道信息选择" model="master_data_admin_B2cMDShopVO">
+
+        <Alert type="warning" message="请为已授权线上渠道店铺设置需要同步信息" />
+        <Fields>
+
+            <Field name="itemSynchronized" renderType="Checkbox" label="商品同步">
+                <RenderType>
+                    <Checkbox direction="horizontal"/>
+                </RenderType>
+            </Field>
+            <Field name="orderSynchronized" renderType="Checkbox" label="订单同步">
+                <RenderType>
+                    <Checkbox direction="horizontal"/>
+                </RenderType>
+            </Field>
+
+        </Fields>
+
+        <Actions>
+            <Action label="取消" type="Cancel" action="" after="GoBack" layout="Footer"/>
+            <Action type="Submit"  label="确定" after="GoBack" layout="Footer"
+            action="master_data_admin_B2cMDShopVO_B2cMDShopAction::grantSynchronized"/>
+        </Actions>
+    </Form>
+</View>

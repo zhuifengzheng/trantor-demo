@@ -51,8 +51,11 @@
             <Action label="取消" type="Cancel" action="" after="GoBack" layout="Footer"/>
             <Action renderType="Normal" openViewType="Blank" label="获取授权码" after="Refresh" layout="Footer"
             @action="grantAuthorizationAction"/>
+<!--            @action="({context}) => delayTriggerServer('order_admin_center_SRMOrderShipVO_SRMOrderShipServerAction::tradingDelivery','order_admin_center_SRMOrderShipVO',context,3000)"-->
+<!--            <Action renderType="Submit" openViewType="Blank" label="授权" after="Refresh" layout="Footer"-->
+<!--                    action="master_data_admin_B2cMDShopVO_B2cMDShopAction::grantAuthorizationSave"/>-->
             <Action renderType="Submit" openViewType="Blank" label="授权" after="Refresh" layout="Footer"
-                    action="master_data_admin_B2cMDShopVO_B2cMDShopAction::grantAuthorizationSave"/>
+            @action="grantSave"/>
         </Actions>
     </Form>
 </View>

@@ -15,6 +15,8 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
+import java.util.Collections;
+import java.util.Map;
 import java.util.Objects;
 
 /**
@@ -44,5 +46,11 @@ public class MDShopSingleDataAction implements SingleDataAction<MDShopVO> {
 //
 //        return MDShopConverter.convertFromMDShopFullInfo(getRes.getResult());
         return null;
+    }
+
+    public static void main(String[] args) {
+        Map<Object, Object> objectObjectMap =
+                Collections.emptyMap();
+        objectObjectMap.get("1");
     }
 }
