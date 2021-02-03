@@ -76,5 +76,16 @@
     "name": "店铺同步",
     "template": "mdshop-synchronize-view.xml",
     "type": "Detail"
+  },
+
+  {
+    "desc": "检验授权",
+    "forModel": "master_data_admin_B2cMDShopVO",
+    "isDefault": false,
+    "key": "MDGrantTokenCheck",
+    "name": "检验授权",
+    "controller": "controllers/b2c_shop_common.ts",
+    "template": "b2c-check-token.xml",
+    "type": "Form"
   }
 ]

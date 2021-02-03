@@ -43,6 +43,19 @@ public class B2cMDShopAction{
 
 
     @TAction(modelClass = B2cMDShopVO.class)
+    public Boolean checkToken(B2cMDShopVO mdShopVO) {
+        try {
+            // todo 根据店铺id查询授权token，然后检验token是否可以使用
+            Long id = mdShopVO.getId();
+            log.info("checkToken shopId=>{}",id);
+//            readFacade
+            return true;
+        } catch (Exception e) {
+            throw new RuntimeException(Throwables.getStackTraceAsString(e));
+        }
+    }
+
+    @TAction(modelClass = B2cMDShopVO.class)
     public void grantSynchronized(B2cMDShopVO mdShopVO) {
         log.info("===============grantSynchronized===================");
     }
@@ -50,7 +63,7 @@ public class B2cMDShopAction{
     @TAction(modelClass = B2cMDShopVO.class)
     public String grant(B2cMDShopVO mdShopVO) {
         try {
-            String grantUrl = "https://auth.lazada.com/oauth/authorize?response_type=code&force_auth=true&redirect_uri=https://work.terminus.io&client_id=124923&country=" + mdShopVO.getCountryCode();// + 111111;
+            String grantUrl = "https://auth.lazada.com/oauth/authorize?response_type=code&force_auth=true&redirect_uri=https://trantor-portal-dev-9078-app.app.terminus.io/view/master_data_admin_MDShopVO_mDShop_grant_code&client_id=124923&country=" + mdShopVO.getCountryCode();// + 111111;
             log.info("认证授权地址：" + grantUrl);
             return grantUrl;
         } catch (Exception e) {

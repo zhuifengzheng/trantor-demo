@@ -1,0 +1,18 @@
+<View title="授权">
+    <Steps :current="env.grantProgress">
+        <Step :title="i18n.get('授权').d('授权')"/>
+        <Step :title="i18n.get('检测授权').d('检测授权')"/>
+    </Steps>
+    <Form key="parent" title="店铺授权" model="master_data_admin_B2cMDShopVO">
+
+        <Fields>
+            <Field name="id" lable="店铺id" readonly="true" :initValue="env.id"/>
+        </Fields>
+        <Actions>
+            <Action label="取消" type="Cancel" action="" after="Close" layout="Footer"/>
+            <Action renderType="Submit"  label="检测授权" after="Refresh" layout="Footer"
+            @action="checkToken"/>
+
+        </Actions>
+    </Form>
+</View>

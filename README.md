@@ -149,3 +149,7 @@ $trantor env
 ## 3. 其他
 1、dice.yml和pipeline.yml是部署在Dice平台必备的配置文件。若不使用Dice部署，则可以忽略。
 2、如果有其他使用上的疑问，请查阅 [Trantor 官方文档](https://trantor-interactive-doc.app.terminus.io/doc/marked/introduce)
+
+<groupId>com.lazada.lazop.api</groupId>
+            <artifactId>lazada-lazop-api</artifactId>
+mvn install:install-file -Dfile=/Users/zhuifengzheng/Downloads/lazop-sdk-java-20181207-1544143349318Wp2f/lazop-api-sdk-1.2.0.jar -DgroupId=com.lazada.lazop.api -DartifactId=lazada-lazop-api -Dversion=1.2.0 -Dpackaging=jar

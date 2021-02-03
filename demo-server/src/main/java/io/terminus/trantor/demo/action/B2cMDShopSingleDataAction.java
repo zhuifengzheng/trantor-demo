@@ -182,9 +182,9 @@ public class B2cMDShopSingleDataAction implements SingleDataAction<B2cMDShopVO> 
         shopVO.setId(queryValues.getOneValue("id"));
         Object obj = queryValues.getOneValue("id");
         if (shopVO.getGrantAuthorization()) {
-            shopVO.setGrantProgress(1);
+            shopVO.setGrantProgress(0);
         }else {
-            shopVO.setGrantProgress(2);
+            shopVO.setGrantProgress(1);
         }
 
         System.out.println("================queryValues.getOneValue(\"id\")=============="+obj);
@@ -193,12 +193,12 @@ public class B2cMDShopSingleDataAction implements SingleDataAction<B2cMDShopVO> 
         HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
 
         String code = request.getParameter("code");
-        if (null == code){
-            shopVO.setGrantCode("111");
-        }else {
-            shopVO.setGrantCode(code);
-        }
-
+        log.info("code===={}",code);
+//        if (null == code){
+//            shopVO.setGrantCode("111");
+//        }else {
+//            shopVO.setGrantCode(code);
+//        }
         shopVO.setItemSynchronized(true);
         shopVO.setOrderSynchronized(false);
         return shopVO;

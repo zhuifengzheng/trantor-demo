@@ -121,7 +121,7 @@ public class MDShopConverter {
         mDShopVO.setUpdatedAt(shopFullInfo.getUpdatedAt());
         mDShopVO.setCreatedBy(shopFullInfo.getCreatedBy());
         mDShopVO.setUpdatedBy(shopFullInfo.getUpdatedBy());
-        mDShopVO.setId(123L);
+        mDShopVO.setId(123456789L);
         mDShopVO.setOutCode(shopFullInfo.getOutCode());
         mDShopVO.setMyIsOnShelfAudit(shopFullInfo.getMyIsOnShelfAudit());
 

@@ -4,7 +4,7 @@
         <Step :title="i18n.get('检测授权').d('检测授权')"/>
     </Steps>
 
-    <Form title="店铺授权-" model="master_data_admin_B2cMDShopVO">
+    <Form key="parent" title="店铺授权-" model="master_data_admin_B2cMDShopVO">
 
         <!--    <Detail key="master_data_admin_B2cMDShopVO" model="master_data_admin_B2cMDShopVO">-->
         <Fields>

@@ -49,5 +49,16 @@
     "key": "toSynchronize",
     "name": "店铺同步",
     "type": "View"
+  },
+
+  {
+    "extra":{
+      "dataSource":"Empty",
+      "openViewType":"Self",
+      "target":"master_data_admin_B2cMDShopVO_MDGrantTokenCheck"
+    },
+    "forModel":"master_data_admin_B2cMDShopVO",
+    "key":"toMDGrantTokenCheck",
+    "type":"View"
   }
 ]
