@@ -22,6 +22,8 @@ public class QuickSort {
         int rightPos = right;
         int base = data[leftPos];
 
+        // 如果没有最外层的while循环，那么基数只会与后面的数换一次，与前面的数换一次，有while(leftPos < rightPos)
+        // 就可以在第一轮把小于base的数全部排到base的左边，大于base的数全部排在base的右边
         while (leftPos < rightPos) {
             while (leftPos < rightPos && data[rightPos] > base) {
                 rightPos--;
