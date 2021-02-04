@@ -16,8 +16,11 @@ import io.terminus.trantor.demo.model.b2c.MDChannelVO;
 import io.terminus.trantor.demo.model.b2c.MDEnterpriseVO;
 import io.terminus.trantor.demo.model.facade.MDShopReadFacade;
 import io.terminus.trantor.demo.model.facade.response.ShopAccessTokenInfo;
+import io.terminus.trantor.exception.ActionErrorException;
 import io.terminus.trantor.module.base.model.User;
+import io.terminus.trantor.sdk.action.ActionBusinessMessage;
 import io.terminus.trantor.sdk.datasource.SingleDataAction;
+import io.terminus.trantor.sdk.exception.BusinessException;
 import io.terminus.trantor.sdk.params.Load;
 import io.terminus.trantor.sdk.query.QueryValues;
 import lombok.RequiredArgsConstructor;
@@ -73,14 +76,7 @@ public class B2cMDShopAction{
     }
 
     @TAction(modelClass = B2cMDShopVO.class)
-    public Boolean grantAuthorizationSave(@Valid B2cMDShopVO b2cMDShopVO) {
-//        接口地址：https://dalaran-runtime-dev-t.app.terminus.io/lazada/token/create
-//        入参：{
-//            "appKey": "124923",
-//                    "appSecret": "BtPwqWoyErRwsaDkU3tasJXRds424XKR",
-//                    "code": "0_124923_68gh4pzELpX2r0j9nLg6Akwa65427"
-//        }
-
+    public Boolean grantAuthorizationSave(B2cMDShopVO b2cMDShopVO) {
         String url = "https://dalaran-runtime-dev-t.app.terminus.io/lazada/token/create";
         Map<String, String> map = new HashMap<>();
         map.put("appKey", "124923");
@@ -99,7 +95,8 @@ public class B2cMDShopAction{
 
             if (StringUtils.isEmpty(result.getAccess_token())) {
                 log.error("获取accessToken失败，造成原因:{}", result.getMessage());
-                throw new RuntimeException("获取accessToken失败，请检查授权码是否正确");
+                //return ActionBusinessMessage.error("获取accessToken失败，请检查授权码是否正确");
+                throw new ActionErrorException("获取accessToken失败，请检查授权码是否正确");
             }
             // todo 这里保存到shop的扩展字段里面   将access_token保存到redis，并通定时【6天】过refresh_token刷新token
             // todo 更新 grantAuthorization=1

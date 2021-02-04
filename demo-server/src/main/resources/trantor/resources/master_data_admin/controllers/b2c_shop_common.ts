@@ -75,6 +75,7 @@ export default class extends Controller {
                 this.triggerViewAction('master_data_admin_B2cMDShopVO_toMDGrantTokenCheck', {
                     context,
                     modelKey: 'master_data_admin_B2cMDShopVO',
+                    // 获取从上一个容器From表单key='parent'的id值=>this.getContainerByKey('parent').data.id
                     env:{grantProgress: 2,id: this.getContainerByKey('parent').data.id},
                     // env:{grantProgress: 1,id: this.getContainerByKey('parent').data.id},
                     // env:{type:'delete',id: this.getContainerByKey('parent').data.id,enterpriseId: this.getContainerByKey('parent').data.enterprise.id},
@@ -88,6 +89,8 @@ export default class extends Controller {
                 showMessage({level: 'Strong', message: '授权验证失败，请重试', type: 'Warning'});
             }
 
+        }).catch((error) => {
+            showMessage({level: 'Strong', message: error.toast, type: 'Error'});
         });
 
 

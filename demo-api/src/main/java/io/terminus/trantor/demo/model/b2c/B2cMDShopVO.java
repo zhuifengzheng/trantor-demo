@@ -33,12 +33,12 @@ public class B2cMDShopVO extends MDShopVO{
     private Integer grantProgress;
 
     @TModelField(name = "授权码",nullable = false)
-    @NotNull(message = "授权码不能为空")
+//    @NotNull(message = "授权码不能为空")
     private String grantCode;
 
     @TModelField(name = "国家")
     @DictionaryMeta(clazz = CountryStatusDict.class)
-    @NotNull(message = "国家不能为空")
+//    @NotNull(message = "国家不能为空")
     private String countryCode;
     // todo MDShopVo里面存在了 appKey
 //    @TModelField(name = "appKey")
